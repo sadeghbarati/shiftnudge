@@ -53,31 +53,16 @@ h3
     margin-bottom: .5rem
 
 h4
-  color: $c-light
+  color: $c-grey
   font-size: .875rem
 
 a 
   text-decoration: none
-  color: $c-light
+  color: $c-white
   +easeall
 
   &:hover
     color: $c-pink
-
-ol
-  font-size: .875rem
-  margin-left: 5.25rem
-  margin-top: .5rem
-  font-variant-numeric: tabular-nums
-  +small
-    margin-top: 1rem
-    margin-left: 1.6rem
-    +easeall
-
-  li
-    line-height: 175%
-    padding-left: .25rem
-    list-style: decimal-leading-zero
 
 .sn-wrap
   position: relative
@@ -129,6 +114,7 @@ ol
 .sn-cta-group
   display: grid
   grid-template-columns: 1fr
+
   p, a
     text-align: center
     position: relative
@@ -138,7 +124,6 @@ ol
     grid-template-columns: 16rem 1fr
   +medium
     grid-template-columns: 20rem 1fr
-
 
 a.sn-cta-primary
   color: $c-dark 
@@ -244,6 +229,46 @@ a.sn-cta-primary
 
   svg
     width: 100%
+
+.sn-lessons
+  overflow: hidden
+  position: relative
+  height: 6rem
+  +easeall
+
+  ol
+    font-size: .875rem
+    margin-left: 5.25rem
+    margin-top: .5rem
+    font-variant-numeric: tabular-nums
+    +small
+      margin-top: 1rem
+      margin-left: 1.6rem
+      +easeall
+
+    li
+      line-height: 150%
+      padding-left: .25rem
+      list-style: decimal-leading-zero
+
+  &:before
+    position: absolute
+    content: ""
+    display: block
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    background: linear-gradient(0deg, $c-dark, rgba($c-dark, 0))
+    +easeall
+
+.sn-lessons--showing
+  height: auto !important
+  +easeall
+  &:before
+    opacity: 0 !important
+    +easeall
+
 
 .sn-beta
   padding-top: 2rem

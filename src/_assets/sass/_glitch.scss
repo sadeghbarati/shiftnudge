@@ -1,6 +1,6 @@
 
 .glitch-btn:hover {
-  animation: bg-anim 2s infinite linear alternate-reverse;
+  animation: bg-anim 1s infinite linear alternate-reverse;
   &:after {
     content: attr(data-text);
     position: absolute;
@@ -57,13 +57,13 @@
     box-shadow: 1px 1px 0 0 $c-pink;
     transform: skew(0, 0);
   }
-  49% {
+  97% {
     transform: skew(0, 0);
   }
-  50% {
+  98% {
     transform: skew(-20deg, 0);
   }
-  51% {
+  99% {
     transform: skew(0, 0);
   }
 }
