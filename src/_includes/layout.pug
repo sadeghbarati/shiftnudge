@@ -1,0 +1,48 @@
+//- layout.pug
+
+html
+  head
+    block head
+      title Shift Nudge
+
+    block meta
+      meta(charset="utf-8")
+      meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+      meta(name="description" content="Prototype")
+      meta(name="HandheldFriendly" content="True")
+      meta(name="MobileOptimized" content="320")
+      meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no")
+
+      meta(name='description', content="Interface design coure by by MDS")
+
+      //- Schema.org markup for Google+
+      meta(itemprop='name', content='Shift Nudge')
+      meta(itemprop='description', content="Interface design coure by by MDS")
+      meta(itemprop='image', content='https://mds-assets.s3.amazonaws.com/shiftnudge/*')
+
+      //- Twitter Card data
+      meta(name='twitter:card', content='summary_large_image')
+      meta(name='twitter:site', content='@mds')
+      meta(name='twitter:title', content='Shift Nudge')
+      meta(name='twitter:description', content="Interface design coure by by MDS")
+      meta(name='twitter:creator', content='@mds')
+
+      //- Twitter summary card with large image must be at least 280x150px
+      meta(name='twitter:image:src', content='https://mds-assets.s3.amazonaws.com/shiftnudge/*')
+
+      //- Open Graph data
+      meta(property='og:title', content='Shift Nudge')
+      meta(property='og:type', content='article')
+      meta(property='og:url', content='http://switchtostudio.com')
+      meta(property='og:image', content='https://mds-assets.s3.amazonaws.com/shiftnudge/*')
+      meta(property='og:description', content="Interface design coure by by MDS")
+      meta(property='og:site_name', content='Shift Nudge')
+
+    block stylesandscripts
+      link(rel="stylesheet" type="text/css" href="/_styles/style.css")
+      link(id="favicon" rel="shortcut icon" type="image/png" href="/_assets/img/favicon.png")
+
+  body
+    block content
+
+

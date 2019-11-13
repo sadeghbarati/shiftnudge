@@ -1,0 +1,23 @@
+.sn-module-style
+    .style-top,
+    .style-bottom
+        animation: animate-style-box $animation-speed ease-in-out infinite
+        transform-origin: center
+        animation-delay: .8s
+    .style-lines
+        animation: animate-style-line ($animation-speed*2) ease-in-out infinite
+        transform-origin: center
+        animation-delay: .8s
+
+@keyframes animate-style-box
+    0%, 20%, 80%, 100%
+        transform: scale(1)
+    50%
+        transform: scale(1.1)
+
+@keyframes animate-style-line
+    0%, 20%, 80%, 100%
+        transform: rotate(0)
+    50%
+        transform: rotate(180deg)
+

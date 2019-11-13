@@ -1,0 +1,330 @@
+*, *:before, *:after
+  box-sizing: border-box
+
+*::-moz-selection
+  background: $c-light
+  color: $c-dark
+
+*::selection
+  background: $c-light
+  color: $c-dark
+
+html
+  scroll-behavior: smooth
+  background: $c-dark
+
+body
+  font-size: 16px
+  background: $c-dark
+  color: $c-grey
+  margin-top: 0rem
+  padding-bottom: 4rem
+  +font-firs
+  +large
+    margin-top: 10rem
+
+h1
+  font-size: 1.625rem
+  font-weight: 600
+  line-height: 1em
+  color: $c-light
+  span
+    color: $c-grey
+  +small
+    font-size: 2rem
+  +medium
+    max-width: 100%
+    font-size: 2.5rem
+
+h2
+  margin-top: .5rem
+  font-weight: 500
+  text-transform: uppercase
+  padding-bottom: 2rem
+  +small
+    padding-bottom: 3rem
+
+h3
+  color: $c-light
+  font-size: 1.325rem
+  margin-bottom: .25rem
+  +small
+    font-size: 1.75rem
+    margin-bottom: .5rem
+a 
+  text-decoration: none
+  color: $c-light
+  +easeall
+
+  &:hover
+    color: $c-pink
+
+.sn-wrap
+  position: relative
+  z-index: 100
+  max-width: 24rem
+  margin: auto
+  padding: 0 1rem
+  +small
+    max-width: 40rem
+  +large
+    max-width: 54rem
+    padding: 0
+
+.sn-logo
+  text-align: center
+  padding: 2.5rem
+  margin: 0 auto
+  float: none
+  transform: scale(1.1)
+  max-width: max-content
+  +easeall
+  &:hover
+    transform: scale(1.2) rotate(-2deg)
+    +easeall
+  +large
+    transform: scale(1)
+    padding: 0
+    float: left
+    margin-left: -96px
+    margin-top: -18px
+
+.sn-course-meta
+  display: grid
+  grid-template-columns: 1fr
+  align-items: self-start
+  margin-top: 3rem
+  grid-column-gap: 3rem
+  +small
+    grid-template-columns: 1fr 1fr
+  +large
+    grid-column-gap: 0
+    grid-template-columns: 2fr 1fr
+    margin-top: 5rem
+  a
+    text-align: center
+    justify-self: self-start
+    text-decoration: none
+
+.sn-cta-group
+  display: grid
+  grid-template-columns: 1fr
+  p, a
+    text-align: center
+  p
+    padding: 1rem 0
+  +small
+    grid-template-columns: 16rem 1fr
+  +medium
+    grid-template-columns: 20rem 1fr
+
+
+a.sn-cta-primary
+  color: $c-dark 
+  background: rgba($c-white, .9)
+  font-size: 1rem
+  display: block
+  padding: 1.25rem 0
+  border-radius: 6px
+  width: 100%
+  color: $c-dark
+  max-width: 20rem
+  text-align: center
+  margin: auto
+  text-shadow: none
+  animation: none
+  position: relative
+  +easeall
+  &:hover
+    background: $c-white
+    +easeall
+  +large
+    max-width: 20rem
+    display: inline-block
+
+.sn-instructor
+  margin-top: 3rem
+  text-align: center
+  +small
+    background: none
+    padding: 0
+    text-align: left
+    margin-top: .25rem
+    margin-left: 1.5rem
+  &:hover img
+    transform: scale(1.05)
+  img
+    border-radius: 50%
+    width: 3rem
+    +easeall
+    +small
+      float: left
+      margin-right: .75rem
+  p
+    margin-top: 1rem
+
+.sn-modules
+  margin-top: 5rem
+  +small
+    margin-top: 8rem
+
+.sn-module-group
+  display: grid
+  grid-template-columns: 1fr
+  +small
+    grid-template-columns: 1fr 1fr 1fr
+    grid-row-gap: 6rem
+    grid-column-gap: 2rem
+
+.sn-module
+  padding: 1rem 0
+  cursor: default
+  +easeslow
+  // border: 1px solid red
+  .icon-bg
+    transform-origin: center
+    +easeslow
+  &:hover
+    .icon-bg
+      opacity: .2
+      +easeall
+  +small
+    padding: 2rem 0
+
+  h3
+    padding-top: 1rem
+    +small
+      padding-top: 0
+
+.sn-module:hover .sn-module-icon
+  +easeall
+  transform: scale(1.1)
+
+.sn-module-icon
+  width: 4.5rem
+  height: 4.5rem
+  float: left
+  margin-left: -.5rem
+  margin-right: 1.25rem
+  transform: scale(.9)
+  +easeslow
+  +small
+    transform: scale(1)
+    float: none
+    margin-right: 0
+    margin-left: -.5rem
+    margin-bottom: 1.5rem
+
+.sn-beta
+  padding-top: 2rem
+  margin-top: 4rem
+  +small
+    padding-top: 6rem
+    margin-top: 4rem
+
+.sn-callout 
+  display: grid
+  grid-template-columns: 1fr
+  font-size: 1.325rem
+  line-height: 1.25em
+  margin-bottom: 2rem
+  grid-row-gap: 2rem
+  +large
+    grid-template-columns: 1.125fr 1fr
+    grid-column-gap: 5rem
+    margin-bottom: 4rem
+    font-size: 1.5rem
+  p
+    color: $c-light
+  ul
+    font-size: 1rem
+    li 
+      +easeall
+      cursor: default
+      span
+        // color: $c-light
+      div
+        color: $c-light
+        font-weigth: 800
+        margin-right: .5rem
+        display: inline-block
+        // +easeall
+        transition: transform cubic-bezier(0.68, -0.55, 0.265, 1.55) .25s
+      mark
+        font-feature-settings: "smcp" 1
+        color: $c-grey
+        background: none
+
+      &:hover
+        color: $c-light
+        div
+          transform: scale(1.5)
+
+.sn-foot
+  display: grid
+  grid-template-columns: 1fr
+  margin-top: 6rem
+  grid-row-gap: 6rem
+  text-align: center
+  align-items: baseline
+
+  +small
+    text-align: left
+    margin-top: 10rem
+    grid-template-columns: 1.125fr 1fr;
+    grid-column-gap: 5rem;
+
+  .sn-legal
+    justify-self: center
+    +small
+      justify-self: start
+
+  h4
+    div
+      content: "↗"
+      display: inline-block
+      transform: translate(0,0)
+      +easeall
+    &:hover
+      +easeall
+      div
+        +easeall
+        color: $c-light
+        transform: translate(2px,-2px)
+
+.sn-countdown
+  font-variant-numeric: tabular-nums
+  color: $c-light
+
+.sn-body
+  max-width: 40rem
+  margin: auto
+
+  h1
+    padding: 4rem 0
+    +large
+      padding: 0 0 4rem
+    
+  h2 
+    padding: 2rem 0
+    color: $c-light
+    
+  h3
+    padding: 0 .5rem 0 0
+    margin: 0
+    float: left
+    color: $c-light
+  p, h3
+    font-size: 1.25rem
+    font-weight: 400
+    line-height: 1.35
+  p
+    padding-bottom: 2rem
+    &:first-of-type
+      font-size: 1.25rem
+      color: $c-light
+      +small
+        font-size: 1.5rem
+  
+
+  

@@ -1,0 +1,63 @@
+
+.glitch:hover {
+  animation: bg-anim 2s infinite linear alternate-reverse;
+  &:after {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-shadow: -1px 0 $c-pink;
+    top: 50%;
+    color: black;
+    background: white;
+    overflow: hidden;
+    transform: translateY(-50%);
+    animation: noise-anim 5s infinite linear alternate-reverse;
+  }
+  &:before {
+    content: attr(data-text);
+    position: absolute;
+    left: 1;
+    right: 0;
+    text-shadow: 1px 0 blue;
+    top: 50%;
+    color: black;
+    background: white;
+    overflow: hidden;
+    transform: translateY(-50%);
+    animation: noise-anim-2 15s infinite linear alternate-reverse;
+  }
+}
+
+@keyframes noise-anim {
+  $steps: 20;
+  @for $i from 0 through $steps {
+    #{percentage($i*(1/$steps))} {
+      $top: random(100);
+      $bottom: random(101 - $top);
+      clip-path: inset(#{$top}% 0 #{$bottom}%  0);
+    }
+  }
+}
+
+@keyframes noise-anim-2 {
+  $steps: 20;
+  @for $i from 0 through $steps {
+    #{percentage($i*(1/$steps))} {
+      $top: random(100);
+      $bottom: random(101 - $top);
+      clip-path: inset(#{$top}% 0 #{$bottom}%  0);
+    }
+  }
+}
+
+@keyframes bg-anim {
+  0%, 100% {
+    box-shadow: -1px -1px 0 0 $c-pink;
+    transform: skew(0, 0);
+  }
+  50% {
+    box-shadow: 1px 1px 0 0 $c-pink;
+    transform: skew(.5deg, 0);
+  }
+}

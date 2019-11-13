@@ -1,0 +1,32 @@
+.sn-module-imagery
+    .imagery-circle
+        animation: animate-imagery-circle $animation-speed ease-in-out infinite
+        transform-origin: 0% 0%
+        animation-delay: 1s
+    .imagery-back
+        animation: animate-imagery-back $animation-speed ease-in-out infinite
+        transform-origin: 100% 0%
+        animation-delay: 1s
+    .imagery-front
+        animation: animate-imagery-front $animation-speed ease-in-out infinite
+        transform-origin: 0% 0%
+        animation-delay: 1s
+
+@keyframes animate-imagery-circle
+    0%, 20%, 80%, 100%
+        transform: translate(0,0)
+    50%
+        transform: translate(8px,16px)
+
+@keyframes animate-imagery-back
+    0%, 20%, 80%, 100%
+        transform: translate(0,0)
+    50%
+        transform: translate(16px,0)
+
+@keyframes animate-imagery-front
+    0%, 20%, 80%, 100%
+        transform: translate(0,0)
+    50%
+        transform: translate(-6px,0)
+

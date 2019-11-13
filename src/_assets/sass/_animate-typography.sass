@@ -1,0 +1,29 @@
+.sn-module-typography
+    .typography-top
+        animation: animate-typography-top $animation-speed ease-in-out infinite
+        animation-delay: .2s
+    .typography-middle
+        animation: animate-typography-middle $animation-speed ease-in-out infinite
+        animation-delay: .2s
+    .typography-bottom
+        animation: animate-typography-bottom $animation-speed ease-in-out infinite
+        animation-delay: .2s
+
+@keyframes animate-typography-top
+    0%, 20%, 80%, 100%
+        transform: translateX(0)
+    50%
+        transform: translateX(4px)    
+
+@keyframes animate-typography-middle
+    0%, 20%, 80%, 100%
+        transform: translateX(0)
+    50%
+        transform: translateX(20px)
+
+@keyframes animate-typography-bottom
+    0%, 20%, 80%, 100%
+        transform: translateX(0)
+    50%
+        transform: translateX(12px)
+
