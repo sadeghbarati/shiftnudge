@@ -51,6 +51,11 @@ h3
   +small
     font-size: 1.75rem
     margin-bottom: .5rem
+
+h4
+  color: $c-light
+  font-size: .875rem
+
 a 
   text-decoration: none
   color: $c-light
@@ -58,6 +63,21 @@ a
 
   &:hover
     color: $c-pink
+
+ol
+  font-size: .875rem
+  margin-left: 5.25rem
+  margin-top: .5rem
+  font-variant-numeric: tabular-nums
+  +small
+    margin-top: 1rem
+    margin-left: 1.6rem
+    +easeall
+
+  li
+    line-height: 175%
+    padding-left: .25rem
+    list-style: decimal-leading-zero
 
 .sn-wrap
   position: relative
@@ -111,6 +131,7 @@ a
   grid-template-columns: 1fr
   p, a
     text-align: center
+    position: relative
   p
     padding: 1rem 0
   +small
@@ -128,7 +149,6 @@ a.sn-cta-primary
   border-radius: 6px
   width: 100%
   color: $c-dark
-  max-width: 20rem
   text-align: center
   margin: auto
   text-shadow: none
@@ -172,9 +192,11 @@ a.sn-cta-primary
   display: grid
   grid-template-columns: 1fr
   +small
+    grid-template-columns: 1fr 1fr
+    grid-row-gap: 0
+    grid-column-gap: 4rem
+  +large
     grid-template-columns: 1fr 1fr 1fr
-    grid-row-gap: 6rem
-    grid-column-gap: 2rem
 
 .sn-module
   padding: 1rem 0
@@ -187,6 +209,9 @@ a.sn-cta-primary
   &:hover
     .icon-bg
       opacity: .2
+      +easeall
+    ol
+      color: $c-light
       +easeall
   +small
     padding: 2rem 0
@@ -201,25 +226,30 @@ a.sn-cta-primary
   transform: scale(1.1)
 
 .sn-module-icon
-  width: 4.5rem
-  height: 4.5rem
+  width: 3rem
+  height: 3rem
   float: left
   margin-left: -.5rem
   margin-right: 1.25rem
   transform: scale(.9)
   +easeslow
   +small
+    width: 4.5rem
+    height: 4.5rem
     transform: scale(1)
     float: none
     margin-right: 0
     margin-left: -.5rem
     margin-bottom: 1.5rem
 
+  svg
+    width: 100%
+
 .sn-beta
   padding-top: 2rem
   margin-top: 4rem
   +small
-    padding-top: 6rem
+    padding-top: 3rem
     margin-top: 4rem
 
 .sn-callout 
@@ -238,9 +268,12 @@ a.sn-cta-primary
     color: $c-light
   ul
     font-size: 1rem
+    margin-top: 0
     li 
       +easeall
       cursor: default
+      list-style: none
+      margin: 0
       span
         // color: $c-light
       div
@@ -271,8 +304,8 @@ a.sn-cta-primary
   +small
     text-align: left
     margin-top: 10rem
-    grid-template-columns: 1.125fr 1fr;
-    grid-column-gap: 5rem;
+    grid-template-columns: 1.125fr 1fr
+    grid-column-gap: 5rem
 
   .sn-legal
     justify-self: center
@@ -297,13 +330,24 @@ a.sn-cta-primary
   color: $c-light
 
 .sn-body
-  max-width: 40rem
+  max-width: 50rem
   margin: auto
 
   h1
     padding: 4rem 0
+    position: relative
+    margin-left: 3rem
     +large
       padding: 0 0 4rem
+
+    a
+      color: $c-pink
+      transform: translateX(-44px)
+      position: absolute
+      +easeall
+      &:hover
+        transform: translateX(-52px)
+        +easeall
     
   h2 
     padding: 2rem 0
