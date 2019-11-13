@@ -21,7 +21,7 @@ body
   padding-bottom: 4rem
   +font-firs
   +large
-    margin-top: 10rem
+    padding-top: 10rem
 
 h1
   font-size: 1.625rem
@@ -186,11 +186,15 @@ a.sn-cta-primary
 .sn-module
   padding: 1rem 0
   cursor: default
+  display: grid
+  grid-template-columns: 4.5rem 1fr
+  align-content: start
   +easeslow
-  // border: 1px solid red
+
   .icon-bg
     transform-origin: center
     +easeslow
+
   &:hover
     .icon-bg
       opacity: .2
@@ -198,7 +202,9 @@ a.sn-cta-primary
     ol
       color: $c-light
       +easeall
+
   +small
+    grid-template-columns: 1fr
     padding: 2rem 0
 
   h3
@@ -211,13 +217,14 @@ a.sn-cta-primary
   transform: scale(1.1)
 
 .sn-module-icon
-  width: 3rem
-  height: 3rem
+  width: 3.5rem
+  height: 3.5rem
   float: left
-  margin-left: -.5rem
+  margin-left: 0
   margin-right: 1.25rem
   transform: scale(.9)
   +easeslow
+
   +small
     width: 4.5rem
     height: 4.5rem
@@ -238,8 +245,8 @@ a.sn-cta-primary
 
   ol
     font-size: .875rem
-    margin-left: 5.25rem
     margin-top: .5rem
+    margin-left: 1.875rem
     font-variant-numeric: tabular-nums
     +small
       margin-top: 1rem
@@ -250,6 +257,8 @@ a.sn-cta-primary
       line-height: 150%
       padding-left: .25rem
       list-style: decimal-leading-zero
+      +small
+        line-height: 150%
 
   &:before
     position: absolute
@@ -268,7 +277,6 @@ a.sn-cta-primary
   &:before
     opacity: 0 !important
     +easeall
-
 
 .sn-beta
   padding-top: 2rem
