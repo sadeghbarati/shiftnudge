@@ -1,21 +1,22 @@
 extends ../_includes/layout.pug
 
 block head
-  title Shift Nudge – Privacy Policy
+	title Shift Nudge – Privacy Policy
 
-  block stylesandscripts
-    link(rel="stylesheet" type="text/css" href="../_assets/shiftnudge.css")
-    link(id="favicon" rel="shortcut icon" href="../favicon.ico")
-    
+	block stylesandscripts
+	link(rel="stylesheet" type="text/css" href="../_assets/shiftnudge.css")
+	link(id="favicon" rel="shortcut icon" href="../favicon.ico")
+	
 block content
-    .circles
-            - for (var delay = 1; delay <= 13; delay++)
-                div.circle(style="--animation-delay:" + delay*-1)
-                    div.inner
-                        div.dot
-                            h1 💩
-    .sn-wrap
-        .sn-body
-            h1 Oh crap. <span>This page doesn't exist. It's quite possible that you've found an old link or typed in the wrong URL. Please enjoy these flying poop emojis.</span>
-            .sn-callout
-            h2: a(href="/")  &larr; go home
+	.circles
+		- for (var delay = 1; delay <= 13; delay++)
+			div.circle(style="--animation-delay:" + delay*-1)
+				div.inner
+					div.dot
+						h1 💩
+
+	.sn-wrap
+		.sn-body
+			h1 Oh crap. <em> This page doesn't exist. It's quite possible that you've found an old link or typed in the wrong URL. Please enjoy these flying poop emojis.</em>
+			.sn-callout
+			h2: a(href="/")  &larr; go home
