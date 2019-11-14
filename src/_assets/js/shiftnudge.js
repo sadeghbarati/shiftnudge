@@ -16,7 +16,7 @@ $(document).ready(function() {
 	 });
 
 	// show hide full lesson list
-	$('.sn-lessons').on( "click", function(event) {
+	$('.sn-module').on( "click", function(event) {
 		$('.sn-lessons').toggleClass( "sn-lessons--showing" );
 	});
 
