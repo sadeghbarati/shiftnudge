@@ -18,10 +18,7 @@ body
 	background: $c-dark
 	color: $c-grey
 	margin-top: 0rem
-	padding-bottom: 4rem
 	+font-firs
-	+large
-		padding-top: 10rem
 
 .fk-uppercase
 	font-variant: traditional
@@ -38,6 +35,8 @@ h1
 	+medium
 		max-width: 100%
 		font-size: 2.6rem
+	+xlarge
+		font-size: 3.2rem
 
 h2
 	margin-top: .5rem
@@ -73,12 +72,16 @@ a
 	max-width: 24rem
 	margin: auto
 	padding: 0 1rem
+	// box-shadow: 1px 0 0 0 rgba($c-grey, .1), -1px 0 0 0 rgba($c-grey, .1)
+	padding: 0 0 4rem
 	+small
-		padding: 0 2rem
+		padding: 0 2rem 4rem
 		max-width: 50rem
 	+large
-		padding: 0
+		padding: 10rem 0 0 
 		max-width: 56rem
+	+xlarge
+		max-width: 75rem
 		
 .sn-logo
 	text-align: center
@@ -187,6 +190,8 @@ a.sn-cta-primary
 		grid-column-gap: 4rem
 	+large
 		grid-template-columns: 1fr 1fr 1fr
+	+xlarge
+		grid-template-columns: 1fr 1fr 1fr 1fr
 
 .sn-module
 	padding: 1rem 0
@@ -257,16 +262,16 @@ a.sn-cta-primary
 	position: relative
 	height: 7.5rem
 	overflow: hidden
+	padding: 0 0 0 1rem
 	+easeslow
 
 	ol
 		font-size: 1rem
 		margin-top: .5rem
-		padding-left: 1.875rem
+		padding-left: .875rem
 		font-variant-numeric: tabular-nums
 		+small
 			margin-top: 1rem
-			padding-left: 1.875rem
 			+easeall
 
 		li
@@ -315,6 +320,8 @@ a.sn-cta-primary
 		font-size: 1.5rem
 	p
 		color: $c-light
+		+xlarge
+			max-width: 28rem
 	ul
 		font-size: 1rem
 		margin-top: 0
@@ -350,6 +357,7 @@ a.sn-cta-primary
 	grid-row-gap: 6rem
 	text-align: center
 	align-items: baseline
+	padding: 0 0 4rem
 
 	+small
 		text-align: left
@@ -365,6 +373,9 @@ a.sn-cta-primary
 		justify-self: center
 		+small
 			justify-self: start
+
+			h4
+				color: $c-grey
 
 	h4
 		div
