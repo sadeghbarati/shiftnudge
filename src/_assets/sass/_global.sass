@@ -43,7 +43,10 @@ h2
 	font-weight: 500
 	text-transform: uppercase
 	padding-bottom: 2rem
+	text-align: left
+	text-indent: .5rem
 	+small
+		text-indent: 0
 		padding-bottom: 3rem
 
 h3
@@ -71,9 +74,7 @@ a
 	z-index: 100
 	max-width: 24rem
 	margin: auto
-	padding: 0 1rem
-	// box-shadow: 1px 0 0 0 rgba($c-grey, .1), -1px 0 0 0 rgba($c-grey, .1)
-	padding: 0 0 4rem
+	padding: 0 1rem 4rem
 	+small
 		padding: 0 2rem 4rem
 		max-width: 50rem
@@ -189,6 +190,7 @@ a.sn-cta-primary
 		grid-row-gap: 0
 		grid-column-gap: 4rem
 	+large
+		grid-column-gap: 3.5rem
 		grid-template-columns: 1fr 1fr 1fr
 	+xlarge
 		grid-template-columns: 1fr 1fr 1fr 1fr
@@ -262,8 +264,11 @@ a.sn-cta-primary
 	position: relative
 	height: 7.5rem
 	overflow: hidden
-	padding: 0 0 0 1rem
+	padding: 0 0 0 1.25rem
 	+easeslow
+
+	+small
+		padding: 0 0 0 1rem
 
 	ol
 		font-size: 1rem
