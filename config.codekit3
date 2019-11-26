@@ -387,6 +387,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/src/_assets/sass/_code.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_assets/sass/_code.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_assets/sass/_cta.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_assets/sass/_cta.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/src/_assets/sass/_devices.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -409,6 +435,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_assets/sass/_form.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_assets/sass/_form.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -478,6 +517,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/src/_assets/sass/_table.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_assets/sass/_table.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/src/_assets/sass/_variables.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -514,6 +566,26 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/src/_includes/foot.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/foot.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/_includes/form.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/form.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/src/_includes/layout.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -521,6 +593,16 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/_includes/layout.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/_includes/modules.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/modules.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -534,6 +616,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/src/almost/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/almost/index.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/src/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
@@ -542,6 +634,16 @@
 		"oAP": "/build/favicon.ico",
 		"oF": 0
 		},
+	"/src/form/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/form/index.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/src/index.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -549,6 +651,16 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/join-paid-beta/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/join-paid-beta/index.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -569,14 +681,6 @@
 		"oAP": "/build/privacy/index.html",
 		"oF": 0,
 		"oS": 0
-		},
-	"/src/woohoo/index-old.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/woohoo/index-old.html",
-		"oF": 0
 		},
 	"/src/woohoo/index.pug": {
 		"cB": 0,

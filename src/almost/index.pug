@@ -1,0 +1,30 @@
+extends ../_includes/layout.pug
+
+block head
+	title Shift Nudge – One more thing
+
+	block stylesandscripts
+		link(rel="stylesheet" type="text/css" href="../_assets/shiftnudge.css")
+		link(id="favicon" rel="shortcut icon" href="../favicon.ico")
+		
+block content
+	.sn-wrap
+		.sn-logo
+			include ../_includes/sn-logo
+		.sn-body
+			h1 One more thing! <em>To make sure this wasn't a mistake, please confirm your email by clicking the "Confirm Email" button in the email just sent to you. It looks like this...</em>
+
+			.sn-table-container
+				table
+					tr
+						td Subject
+						td Important: Confirm Shift Nudge
+					tr
+						td From
+						td matt@mds.is
+					tr
+						td Email
+						td Thanks for signing up. Click the link below to confirm your subscription and you'll be on your way. <br><br><span class="sn-cta-mock">Confirm subscription</span><br><br>It's good to have you!
+
+
+		include ../_includes/foot.pug

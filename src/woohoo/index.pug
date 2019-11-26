@@ -1,9 +1,18 @@
-head
-    title Shift Nudge – Woohoo
-    link(rel="stylesheet" type="text/css" href="../_assets/shiftnudge.css")
-body
-    .sn-wrap
-        h1 Woohoo
-        p text and stuff
+extends ../_includes/layout.pug
 
-    
+block head
+	title Shift Nudge – Woohoo
+
+	block stylesandscripts
+		link(rel="stylesheet" type="text/css" href="../_assets/shiftnudge.css")
+		link(id="favicon" rel="shortcut icon" href="../favicon.ico")
+		
+block content
+	.sn-wrap
+		.sn-logo
+			include ../_includes/sn-logo
+		.sn-body
+			h1 Confirmed! <em>Now you're officially on the Shift Nudge list. You'll be the first to know when the course is ready for enrollment.</em>
+
+			p: a.sn-cta-secondary(href="https://twitter.com/intent/tweet?text=Just+signed+up+to+get+notified+when+@shiftnudge+launches.+New+interface+design+course+from+@mds.+🎉+https://shiftnudge.com") Tweet about it &rarr;
+	
