@@ -44,10 +44,18 @@ h2
 	text-transform: uppercase
 	padding-bottom: 2rem
 	text-align: left
-	text-indent: .5rem
+	line-height: 1em
+	// text-indent: .5rem
 	+small
 		text-indent: 0
 		padding-bottom: 3rem
+
+	span
+		float: none
+		display: block
+		+large
+			float: right
+			text-transform: none
 
 h3
 	color: $c-light
@@ -83,7 +91,19 @@ a
 		max-width: 56rem
 	+xlarge
 		max-width: 75rem
-		
+
+.sn-body
+	max-width: 58ch
+	ul
+		margin-left: 1rem
+		padding-bottom: 2rem
+	li
+		font-size: 1.25rem	
+		line-height: 1.5rem
+		list-style-type: square
+	code 
+		font-size: .875em
+
 .sn-logo
 	text-align: center
 	padding: 2.5rem
@@ -364,13 +384,11 @@ a
 	color: $c-light
 
 .sn-body
-	// max-width: 50rem
 	margin: auto
 
 	h1
 		padding: 0 0 4rem
 		position: relative
-		// margin-left: 3rem
 		+large
 			padding: 0 0 4rem
 
@@ -403,6 +421,7 @@ a
 			color: $c-light
 			+small
 				font-size: 1.5rem
+
 	
 
 	

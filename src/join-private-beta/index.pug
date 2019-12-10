@@ -2,25 +2,33 @@ extends ../_includes/layout.pug
 
 block head
 	title Shift Nudge – Interface Design Course
-	
+
 block content
 	.sn-wrap
 		.sn-logo
 			include ../_includes/sn-logo
 		h1 Shift Nudge <em>is a new online course that covers all the nitty-gritty details of crafting the visual side of UI. The course is taught through the lens of UX, with a detailed focus on designing beautiful <span class="fk-uppercase">&amp;</span> functional user interfaces.</em>
+		
+
 		.sn-course-meta 
 			.sn-cta-group
 				div
-					a.sn-cta-primary(href='#join') Join the Paid Beta
+					a.sn-cta-primary(href='#join') Join the Private Beta
 					p Closes in <span class="sn-countdown">a limited time</span>
 			.sn-instructor
 				img(src='/_assets/img/mds.png' alt='mds')
 				p Taught by <a href="https://twitter.com/mds"/>MDS</a>
 
-		include ../_includes/modules
+		include ../_includes/video
+
+		.sn-modules
+			h2 8 Modules &bull; 84 Lessons
+				span
+					<a href="https://www.notion.so/Organizing-Design-Projects-f09f5cd328c74d89a6df492ef58c037c">Sample lesson ↗</a>
+			include ../_includes/modules
 
 		.sn-beta#join
-			h1 <strong>Paid Beta</strong>
+			h1 <strong>Private Beta</strong>
 			h2 6-monthly payments of $199
 			.sn-callout
 				
@@ -32,18 +40,15 @@ block content
 					li <div>✓</div> Best Practices of Interface Design
 					li <div>✓</div> Shift Nudge Slack Commumity
 					li <div>✓</div> Direct Feedback from MDS
-					li <div>✓</div> Over 16 Hours of Video Content
+					li <div>✓</div> 80+ Lessons on UI Design
 					li <div>✓</div> Downloadable Design Files
 					li <div>✓</div> Lifetime Access
+
 			.sn-cta-group
 				div
 					a.sn-cta-primary(href='https://transactions.sendowl.com/subscriptions/12603/93E5BF6F/purchase' data-text="Get Instant Access") Get Instant Access
 					p Save $197 <span class="fk-uppercase">&amp;</span> <a href="https://transactions.sendowl.com/products/78132160/20FB4AEC/purchase">Pay in Full</a>
-		.sn-foot
-			.sn-legal
-				h4 <span class="copyright">&copy;2019</span> MDS •   
-					a(href="/privacy" class="glitch-txt")  Privacy
-			.sn-qa
-				h4 <a href="https://www.notion.so/Shift-Nudge-Q-A-242fbcedfe4b4ac69cf2bae6f8a8f86b">Ask a question<div>↗</div></a>
+		
+		include ../_includes/foot
 
 	
