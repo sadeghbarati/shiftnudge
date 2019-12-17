@@ -5,34 +5,36 @@ block head
 	
 block content
 	.sn-wrap
-		.sn-logo
-			include _includes/sn-logo
+		include _includes/sn-logo
 		h1 Shift Nudge <em>is a new online course—currently in production—that covers all the nitty-gritty details of crafting the visual side of UI. The course is taught through the lens of UX, with a focus on designing beautiful <span class="fk-uppercase">&amp;</span> functional user interfaces.</em>
 		.sn-course-meta 
 			.sn-cta-group
 				div
-					a.sn-cta-primary(href='#list') I'm Interested!
-					p Sign up and get a free lesson
+					a.sn-cta-primary(href='#list') Get a free lesson
+					p Course closed for Private Beta
 			.sn-instructor
 				img(src='_assets/img/mds.png' alt='mds')
 				p Taught by <a href="https://twitter.com/mds"/>MDS</a>
 		
-		include _includes/modules
+		.sn-modules
+			h2 8 Modules &bull; 84 Lessons
+			include _includes/modules
 
 		.sn-beta#list
-			h1 <strong>Get Notified</strong>
-			h2 Hop on the list
+			h1 <strong>Course Closed</strong>
+			h2 Get notified when it's available
 			.sn-callout
-				p Be the first to get notified when the Private Paid Beta is ready for enrollment. Beta students will have exclusive early access to the course, and frequent interaction with MDS to answer questions, give critique, and provide feedback. The Private Paid Beta will be limited to 100 spots only.
+				p Shift Nudge is currently closed for testing with Private Beta Students. The public launch will go live in early 2020. Hop on the list below to get notified when enrollment is available. Once you're on the list, you'll get access to a free lesson to check out the format.
 				ul 
 					//- li <div>✓</div> Closes in <span class="sn-countdown">a limited time</span>
-					li <span>Private Beta will include:</span>
-					li <div>✓</div> Exclusive Early Access <span>&bull; 100 Spots</span>
+					//- li <span>Private Beta will include:</span>
+					//- li <div>✓</div> Exclusive Early Access <span>&bull; 100 Spots</span>
 					li <div>✓</div> In-Depth and Intensive Training
 					li <div>✓</div> Best Practices of Interface Design
-					li <div>✓</div> Shift Nudge Slack Commumity
-					li <div>✓</div> Direct Feedback from MDS
-					li <div>✓</div> ~16 Hours of Video Content
+					li <div>✓</div> Real World Practical Examples
+					li <div>✓</div> Shift Nudge Slack Community
+					li <div>✓</div> 80+ Design Lessons
+					li <div>✓</div> Over 16 Hours of Video Content
 					li <div>✓</div> Downloadable Design Files
 					li <div>✓</div> Lifetime Access
 			

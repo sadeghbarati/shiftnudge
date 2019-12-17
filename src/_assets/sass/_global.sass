@@ -69,6 +69,9 @@ h4
 	color: $c-light
 	font-size: 1rem
 
+p
+	color: $c-grey
+
 a 
 	text-decoration: none
 	color: $c-white
@@ -101,8 +104,13 @@ a
 		font-size: 1.25rem	
 		line-height: 1.5rem
 		list-style-type: square
+		em
+			font-size: .75rem
 	code 
 		font-size: .875em
+
+	.sn-instructor
+		margin-left: 0
 
 .sn-logo
 	text-align: center
@@ -295,6 +303,13 @@ a
 		padding-top: 3rem
 		margin-top: 4rem
 
+.sn-bigtext p
+	font-size: 1.325rem
+	line-height: 1.25em
+	color: $c-light
+	+large
+		font-size: 1.5rem
+
 .sn-callout 
 	display: grid
 	grid-template-columns: 1fr
@@ -421,6 +436,24 @@ a
 			color: $c-light
 			+small
 				font-size: 1.5rem
+
+
+
+// gosquared
+#gs .gs30+.gs2x
+	background: #222 !important
+	border-radius: 12px
+
+#gs .gs3g.gs3g a
+	display: none !important
+
+#gs .gs27.gs2a,
+#gs .gs27.gs2b
+	background: none !important
+
+#gs .gsu .gss
+	max-width: 30ch
+	margin: auto
 
 	
 
