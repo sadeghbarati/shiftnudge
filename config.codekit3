@@ -680,6 +680,26 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/src/join-private-beta-open/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/join-private-beta-open/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/join-private-beta-open/transcript/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/join-private-beta-open/transcript/index.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/src/join-private-beta/index.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -687,16 +707,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/join-private-beta/index.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"/src/join-private-beta/transcript/index.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/join-private-beta/transcript/index.html",
 		"oF": 0,
 		"oS": 0
 		},
