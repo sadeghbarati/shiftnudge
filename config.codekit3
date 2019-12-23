@@ -680,23 +680,23 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"/src/join-private-beta-open/index.pug": {
+	"/src/join-private-beta-closed/index.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/join-private-beta-open/index.html",
+		"oAP": "/build/join-private-beta-closed/index.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"/src/join-private-beta-open/transcript/index.pug": {
+	"/src/join-private-beta-closed/transcript/index.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/join-private-beta-open/transcript/index.html",
+		"oAP": "/build/join-private-beta-closed/transcript/index.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -759,7 +759,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-red",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 598301730.86952198
+	"lastBuiltDate": 598809762.40636301
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
