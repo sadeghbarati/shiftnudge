@@ -7,7 +7,7 @@
 		"uuidString": "349C96E3-CB2D-4330-BC16-334DB896BD2B"
 		}
 	],
-"creatorBuild": "31934",
+"creatorBuild": "32186",
 "files": {
 	"/build": {
 		"ft": 65536,
@@ -177,6 +177,94 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/_assets/img/emoji/clap.png": {
+		"ft": 32768,
+		"iS": 3949,
+		"oA": 0,
+		"oAP": "/build/_assets/img/emoji/clap.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/emoji/heart.png": {
+		"ft": 32768,
+		"iS": 4513,
+		"oA": 0,
+		"oAP": "/build/_assets/img/emoji/heart.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/emoji/point.png": {
+		"ft": 32768,
+		"iS": 2330,
+		"oA": 0,
+		"oAP": "/build/_assets/img/emoji/point.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/emoji/raise.png": {
+		"ft": 32768,
+		"iS": 6769,
+		"oA": 0,
+		"oAP": "/build/_assets/img/emoji/raise.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/emoji/rock.png": {
+		"ft": 32768,
+		"iS": 4833,
+		"oA": 0,
+		"oAP": "/build/_assets/img/emoji/rock.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/emoji/smile.png": {
+		"ft": 32768,
+		"iS": 5137,
+		"oA": 0,
+		"oAP": "/build/_assets/img/emoji/smile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/emoji/thumbs.png": {
+		"ft": 32768,
+		"iS": 4688,
+		"oA": 0,
+		"oAP": "/build/_assets/img/emoji/thumbs.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/emoji/tongue.png": {
+		"ft": 32768,
+		"iS": 5230,
+		"oA": 0,
+		"oAP": "/build/_assets/img/emoji/tongue.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/_assets/img/favicon.png": {
 		"ft": 32768,
 		"iS": 1053,
@@ -199,6 +287,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/_assets/img/rock.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/rock.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/src/_assets/img/shiftnudge.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -209,6 +307,325 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/src/_assets/img/students/abeer.png": {
+		"ft": 32768,
+		"iS": 51090,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/abeer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/anipier.png": {
+		"ft": 32768,
+		"iS": 26983,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/anipier.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/arjen.png": {
+		"ft": 32768,
+		"iS": 48364,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/arjen.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/atassi.png": {
+		"ft": 32768,
+		"iS": 40572,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/atassi.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/blank.png": {
+		"ft": 32768,
+		"iS": 24234,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/blank.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/boma.png": {
+		"ft": 32768,
+		"iS": 24008,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/boma.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/bryan.png": {
+		"ft": 32768,
+		"iS": 55492,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/bryan.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/caden.png": {
+		"ft": 32768,
+		"iS": 22319,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/caden.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/charlsy.png": {
+		"ft": 32768,
+		"iS": 24037,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/charlsy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/chibuzor.png": {
+		"ft": 32768,
+		"iS": 24224,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/chibuzor.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/christian.png": {
+		"ft": 32768,
+		"iS": 28382,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/christian.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/dan.png": {
+		"ft": 32768,
+		"iS": 18828,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/dan.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/david.png": {
+		"ft": 32768,
+		"iS": 26202,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/david.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/davida.png": {
+		"ft": 32768,
+		"iS": 46168,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/davida.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/denis.png": {
+		"ft": 32768,
+		"iS": 22696,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/denis.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/diamond.png": {
+		"ft": 32768,
+		"iS": 51737,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/diamond.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/hasan.png": {
+		"ft": 32768,
+		"iS": 21209,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/hasan.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/jack.png": {
+		"ft": 32768,
+		"iS": 25550,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/jack.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/jenny.png": {
+		"ft": 32768,
+		"iS": 56378,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/jenny.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/jonah.png": {
+		"ft": 32768,
+		"iS": 25210,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/jonah.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/kakau.png": {
+		"ft": 32768,
+		"iS": 28408,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/kakau.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/kris.png": {
+		"ft": 32768,
+		"iS": 59473,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/kris.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/liliia.png": {
+		"ft": 32768,
+		"iS": 45513,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/liliia.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/michelle.png": {
+		"ft": 32768,
+		"iS": 52199,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/michelle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/ramon.png": {
+		"ft": 32768,
+		"iS": 37886,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/ramon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/stephen.png": {
+		"ft": 32768,
+		"iS": 39675,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/stephen.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/tiffany.png": {
+		"ft": 32768,
+		"iS": 50913,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/tiffany.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/yassine.png": {
+		"ft": 32768,
+		"iS": 52542,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/yassine.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/students/yehezkel.png": {
+		"ft": 32768,
+		"iS": 23210,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/yehezkel.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/_assets/js/shiftnudge.js": {
 		"bF": 0,
 		"ft": 64,
@@ -216,6 +633,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/build/_assets/js/shiftnudge.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_assets/js/vendor/imagesloaded.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/build/_assets/js/vendor/imagesloaded.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -246,339 +674,352 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/__archive/_animate-layout.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/__archive/_animate-start.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/__archive/_animate-start.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/__archive/_animate-typography 2.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/__archive/_animate-typography 2.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_animate-color.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_animate-color.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_animate-elements.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_animate-elements.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_animate-imagery.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_animate-imagery.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_animate-layout.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_animate-layout.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_animate-start.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_animate-start.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_animate-style.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_animate-style.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_animate-tactics.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_animate-tactics.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_animate-typography.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_animate-typography.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_circles.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_circles.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_code.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_code.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_cta.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_cta.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_devices.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_devices.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_fonts.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_fonts.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_form.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_form.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_glitch-txt.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_glitch-txt.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_glitch.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_glitch.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_global.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_global.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_mixins.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_mixins.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_reset.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_reset.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_table.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_table.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
+		},
+	"/src/_assets/sass/_testimonial.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_assets/sass/_testimonial.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
 		},
 	"/src/_assets/sass/_variables.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_variables.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/_video.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_video.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/sass/screen.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/build/_assets/shiftnudge.css",
 		"oF": 2,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/src/_assets/style.css": {
 		"aP": 1,
@@ -589,6 +1030,16 @@
 		"oAP": "/build/_assets/style.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/src/_includes/colors.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/colors.html",
+		"oF": 0,
+		"oS": 0
 		},
 	"/src/_includes/foot.pug": {
 		"cB": 0,
@@ -630,6 +1081,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/src/_includes/quote.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/quote.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/src/_includes/sn-logo.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -637,6 +1098,16 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/_includes/sn-logo.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/_includes/testimonials.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/testimonials.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -680,23 +1151,23 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"/src/join-private-beta-closed/index.pug": {
+	"/src/join-private-beta-open/index.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/join-private-beta-closed/index.html",
+		"oAP": "/build/join-private-beta-open/index.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"/src/join-private-beta-closed/transcript/index.pug": {
+	"/src/join-private-beta-open/transcript/index.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/join-private-beta-closed/transcript/index.html",
+		"oAP": "/build/join-private-beta-open/transcript/index.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -725,6 +1196,16 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/privacy/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/reviews/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/reviews/index.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -759,7 +1240,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-red",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 598809762.40636301
+	"lastBuiltDate": 608097605.16203904
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1299,6 +1780,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"default-case-last": {
+			"active": 0,
+			"optionString": ""
+			},
 		"default-param-last": {
 			"active": 0,
 			"optionString": ""
@@ -1354,6 +1839,10 @@
 		"global-require": {
 			"active": 0,
 			"optionString": ""
+			},
+		"grouped-accessor-pairs": {
+			"active": 0,
+			"optionString": "'anyOrder'"
 			},
 		"guard-for-in": {
 			"active": 0,
@@ -1531,6 +2020,10 @@
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
+		"no-constructor-return": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-continue": {
 			"active": 0,
 			"optionString": ""
@@ -1556,6 +2049,10 @@
 			"optionString": ""
 			},
 		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-else-if": {
 			"active": 1,
 			"optionString": ""
 			},
@@ -1699,6 +2196,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-loss-of-precision": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
@@ -1815,6 +2316,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
+			},
 		"no-restricted-globals": {
 			"active": 0,
 			"optionString": "'event', 'fdescribe'"
@@ -1857,6 +2362,10 @@
 			},
 		"no-sequences": {
 			"active": 0,
+			"optionString": ""
+			},
+		"no-setter-return": {
+			"active": 1,
 			"optionString": ""
 			},
 		"no-shadow": {
@@ -1954,6 +2463,10 @@
 		"no-use-before-define": {
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-backreference": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-call": {
 			"active": 0,
@@ -2062,6 +2575,10 @@
 		"prefer-destructuring": {
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-exponentiation-operator": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-named-capture-group": {
 			"active": 0,
@@ -2759,13 +3276,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
+		"compilerType": 1,
 		"createSourceMap": 0,
-		"debugStyle": 0,
 		"decimalPrecision": 10,
+		"emitCharset": 1,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
+		"shouldRunBless": 0
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,

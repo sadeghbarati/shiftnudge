@@ -1,0 +1,167 @@
+.sn-testimonials
+	margin-top: 10rem
+	display: grid
+	grid-template-columns: 1fr
+	grid-gap: 4rem
+	padding-bottom: 4rem
+	+small
+		margin-top: 9rem
+		grid-template-columns: 1fr 1fr
+	+large
+		grid-template-columns: 1fr 1fr 1fr
+		grid-gap: 3.5rem
+	+xlarge
+		grid-gap: 4rem
+
+
+.sn-testimonial
+	margin-top: 0rem
+	border-radius: $sn-radius
+	+easeall
+
+	&:nth-child(1)
+		cursor: url('../_assets/img/emoji/clap.png'), auto
+
+	&:nth-child(2)
+		cursor: url('../_assets/img/emoji/tongue.png'), auto
+
+	&:nth-child(3)
+		cursor: url('../_assets/img/emoji/smile.png'), auto
+
+	&:nth-child(4)
+		cursor: url('../_assets/img/emoji/rock.png'), auto
+
+	&:nth-child(5)
+		cursor: url('../_assets/img/emoji/thumbs.png'), auto
+
+	&:nth-child(6)
+		cursor: url('../_assets/img/emoji/heart.png'), auto
+
+	&:hover
+		blockquote p
+			color: $c-light
+			+easeall
+		
+		.sn-student-avatar
+			transform: scale(1.125)
+			background: $c-pink
+			+easeall
+
+			img
+				mix-blend-mode: luminosity
+
+	.sn-student-avatar
+		width: 32px
+		height: 32px
+		border-radius: 50%
+		+easeall
+
+	img
+		width: 32px
+		height: 32px
+		
+
+	blockquote p
+		color: $c-grey
+		font-size: 1.325rem
+		font-weight: 600
+		line-height: 1.125em
+		margin-bottom: 1.5rem
+		+easeall
+		
+		+large
+			font-size: 1.75rem
+			+easeall
+		
+	
+	.sn-student
+		display: grid
+		grid-template-columns: 48px 1fr
+		align-items: center
+
+		cite
+			font-size: 1rem
+			text-transform: uppercase
+			color: $c-light
+
+
+// new testimonial styles as of July 20, 2020
+.sn-quote-group
+	margin: 20px
+	display: grid
+	grid-gap: 20px
+	grid-template-columns: repeat(auto-fill, minmax(300px,1fr))
+	grid-auto-rows: 20px
+	+medium
+		grid-template-columns: repeat(auto-fill, minmax(420px,1fr))
+	+xlarge
+		grid-template-columns: repeat(auto-fill, minmax(520px,1fr))
+
+.sn-student-quote
+	background: #151515
+	padding: 2.75rem
+	+easeall
+	+medium
+		padding: 3.75rem
+	&:hover
+		background: #191919
+		transform: scale(1.0125)
+		+easeall
+		p
+			color: $c-white
+			+easeall
+		.sn-student-avatar
+			transform: scale(1.05)
+			+easeall
+			img
+				mix-blend-mode: luminosity
+				+easeall
+	p
+		color: $c-light
+		font-size: 2rem
+		line-height: 2rem
+		display: inline-block
+		padding-bottom: 3rem
+		+easeall
+		+medium
+			font-size: 2.5rem
+			line-height: 2.5rem
+			padding-bottom: 3.25rem
+		em
+			color: $c-dark
+	.sn-student
+		display: grid
+		grid-template-columns: 120px 1fr
+		padding-bottom: 3.325rem
+	.sn-student-avatar
+		border-radius: 50%
+		width: 80px
+		height: 80px
+		box-shadow: 0 0 0 0 $c-black
+		+easeall
+		img
+			border-radius: 50%
+			width: 80px
+			height: 80px
+			+easeall
+	.sn-student-info
+		text-align: right
+		align-self: center
+		h4, h5
+			font-size: 1em
+			text-transform: uppercase
+		h4
+			color: $c-white
+		h5
+			color: $c-grey
+
+
+// magical code that colors all of the highlighted testimonials automagically
+$colors: $c-teal, $c-yellow, $c-orange, $c-red, $c-pink, $c-purple, $c-blue, $c-lightblue 
+
+@for $i from 1 through length($colors) 
+	.sn-student-quote:nth-child(#{length($colors)}n+#{$i}) p em
+		background: linear-gradient(180deg, rgba(nth($colors, $i), 0) 14%, rgba(nth($colors, $i), 1) 15%, rgba(nth($colors, $i), 1) 85%, rgba(nth($colors, $i), 0) 85%)		
+	.sn-student-quote:nth-child(#{length($colors)}n+#{$i}):hover .sn-student-avatar
+		background: nth($colors, $i)
+		box-shadow: 0 0 0 8px nth($colors, $i)

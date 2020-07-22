@@ -69,6 +69,9 @@ h4
 	color: $c-light
 	font-size: 1rem
 
+	span
+		color: $c-grey
+
 p
 	color: $c-grey
 
@@ -78,7 +81,7 @@ a
 	+easeall
 
 	&:hover
-		color: $c-pink
+		color: $c-blue
 
 .sn-wrap
 	position: relative
@@ -92,8 +95,8 @@ a
 	+large
 		padding: 10rem 0 0 
 		max-width: 56rem
-	+xlarge
-		max-width: 75rem
+	// +xlarge
+	// 	max-width: 75rem
 
 .sn-body
 	max-width: 58ch
@@ -129,6 +132,8 @@ a
 		float: left
 		margin-left: -96px
 		margin-top: -18px
+	+xlarge
+		margin-top: -14px
 
 .sn-course-meta
 	display: grid
@@ -146,7 +151,6 @@ a
 		text-align: center
 		justify-self: self-start
 		text-decoration: none
-
 
 .sn-instructor
 	margin-top: 3rem
@@ -169,12 +173,23 @@ a
 	p
 		margin-top: 1rem
 
+.sn-instructor-tag
+	display: grid
+	grid-template-columns: 4rem 1fr
+	align-items: center
+	img
+		border-radius: 50%
+		width: 3rem
+	h4
+		font-size: 1.125rem !important
+		color: $c-light
+
 .sn-modules
 	margin-top: 5rem
 	+small
 		margin-top: 8rem
 
-.sn-module-group
+.sn-grid-4
 	display: grid
 	grid-template-columns: 1fr
 	+small
@@ -185,7 +200,7 @@ a
 		grid-column-gap: 3.5rem
 		grid-template-columns: 1fr 1fr 1fr
 	+xlarge
-		grid-template-columns: 1fr 1fr 1fr 1fr
+		grid-column-gap: 4rem
 
 .sn-module
 	padding: 1rem 0
@@ -208,12 +223,6 @@ a
 				color: $c-light
 				+easeall
 
-		// remove hover from expanded modules
-		// .sn-lessons--showing
-		//   ol
-		//     +small
-		//       color: inherit !important
-
 	+small
 		grid-template-columns: 1fr
 		padding: 2rem 0
@@ -222,9 +231,6 @@ a
 		padding-top: 1rem
 		+small
 			padding-top: 0
-
-.sn-module-content
-	// padding-left: 1rem
 
 .sn-module:hover .sn-module-icon
 	+easeall
@@ -259,21 +265,21 @@ a
 	padding: 0 0 0 1.25rem
 	+easeslow
 
-	+small
-		padding: 0 0 0 1rem
-
 	ol
 		font-size: 1rem
-		margin-top: .5rem
-		padding-left: .875rem
+		margin-top: .5em
+		padding-left: .75em
 		font-variant-numeric: tabular-nums
 		+small
 			margin-top: 1rem
 			+easeall
+		// +xlarge
+		// 	padding-left: 1.125em
+		// 	font-size: 1.325em
 
 		li
 			line-height: 150%
-			padding-left: .25rem
+			padding-left: .25em
 			list-style: decimal-leading-zero
 			+small
 				line-height: 150%
@@ -326,6 +332,13 @@ a
 		color: $c-light
 		+xlarge
 			max-width: 28rem
+
+		a
+			background: rgba($c-grey, .15)
+			padding: 0 .5rem
+			border-radius: $sn-radius
+
+
 	ul
 		font-size: 1rem
 		margin-top: 0
@@ -438,23 +451,39 @@ a
 				font-size: 1.5rem
 
 
+.sn-three-wide
+	grid-template-columns: 1fr
+
+
 
 // gosquared
-#gs .gs30+.gs2x
-	background: #222 !important
-	border-radius: 12px
+#gs
+	.gs30+.gs2x
+		background: #222 !important
+		border-radius: 12px
 
-#gs .gs3g.gs3g a
-	display: none !important
+	.gs3g.gs3g a,
+	.gs3b,
+	.gs3d,
+	.gs3e,
+	.gs3k
+		display: none !important
 
-#gs .gs27.gs2a,
-#gs .gs27.gs2b
-	background: none !important
+	.gs27.gs2a,
+	.gs27.gs2b,
+	.gs2q,
+	.gs2t,
+	.gs2r
+		background: none !important
 
-#gs .gsu .gss
-	max-width: 30ch
-	margin: auto
+	.gsu,
+	.gss
+		max-width: 30ch
+		margin: auto
 
-	
+	.gs38
+		background: transparent !important
+
+		
 
 	
