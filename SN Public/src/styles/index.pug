@@ -8,7 +8,7 @@ block head
 	link(id="favicon" rel="shortcut icon" href="../favicon.ico")
 	
 block content
-	.sn-wrap
+	.sn-wrapper
 		h1 Shift<br>Nudge
 
 		h2 Headline Two
@@ -23,7 +23,10 @@ block content
 		h5 Headline Five
 		p.small For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.
 
-		blockquote For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.
+
+		blockquote
+			include ../_includes/line-arrow
+			| For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective.
 
 		ul
 			li For those who have seen

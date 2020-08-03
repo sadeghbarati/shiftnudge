@@ -1,0 +1,14 @@
+// magical code that cycles through the brand colors in order
+$colors: $c-teal, $c-yellow, $c-orange, $c-red, $c-pink, $c-purple, $c-blue, $c-grey-aaablue 
+
+@for $i from 1 through length($colors) 
+
+	.sn-student-quote:nth-child(#{length($colors)}n+#{$i}) p em
+		background: linear-gradient(180deg, rgba(nth($colors, $i), 0) 14%, rgba(nth($colors, $i), 1) 15%, rgba(nth($colors, $i), 1) 85%, rgba(nth($colors, $i), 0) 85%)		
+	
+	.sn-student-quote:nth-child(#{length($colors)}n+#{$i}):hover .sn-student-avatar
+		background: nth($colors, $i)
+		box-shadow: 0 0 0 8px nth($colors, $i)
+	
+	.sn-module:nth-child(#{length($colors)}n+#{$i}) .sn-module-icon
+		background: nth($colors, $i)

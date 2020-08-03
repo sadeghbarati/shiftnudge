@@ -101,13 +101,13 @@
 		grid-template-columns: repeat(auto-fill, minmax(520px,1fr))
 
 .sn-student-quote
-	background: $c-dark
+	background: $c-dark-accent
 	padding: 2.75rem
 	+easeall
 	+bp-medium
 		padding: 3.75rem
 	&:hover
-		background: $c-dark-accent
+		background: lighten($c-dark-accent, 2)
 		transform: scale(1.025)
 		+easeall
 		p
@@ -160,15 +160,7 @@
 			color: $c-grey-aa
 
 
-// magical code that colors all of the highlighted testimonials automagically
-$colors: $c-teal, $c-yellow, $c-orange, $c-red, $c-pink, $c-purple, $c-blue, $c-grey-aaablue 
 
-@for $i from 1 through length($colors) 
-	.sn-student-quote:nth-child(#{length($colors)}n+#{$i}) p em
-		background: linear-gradient(180deg, rgba(nth($colors, $i), 0) 14%, rgba(nth($colors, $i), 1) 15%, rgba(nth($colors, $i), 1) 85%, rgba(nth($colors, $i), 0) 85%)		
-	.sn-student-quote:nth-child(#{length($colors)}n+#{$i}):hover .sn-student-avatar
-		background: nth($colors, $i)
-		box-shadow: 0 0 0 8px nth($colors, $i)
 
 
 
