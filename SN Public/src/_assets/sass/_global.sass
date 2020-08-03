@@ -1,0 +1,39 @@
+*, *:before, *:after
+	box-sizing: border-box
+
+*::-moz-selection
+	background: $c-grey-aaa
+	color: $c-dark
+
+*::selection
+	background: $c-grey-aaa
+	color: $c-dark
+
+html
+	scroll-behavior: smooth
+	background: $c-black
+
+body
+	font-size: 16px
+	background: $c-dark
+	color: $c-grey-aa
+	margin-top: 0rem
+	+font-firs
+
+.fk-uppercase
+	font-variant: traditional
+
+h1
+	font-size: 1.625rem
+	font-weight: 600
+	line-height: 1em
+	color: $c-white
+	em
+		color: $c-grey-aa-large
+	+bp-small
+		font-size: 2rem
+	+bp-medium
+		max-width: 100%
+		font-size: 2.6rem
+	+bp-xlarge
+		font-size: 3.2rem

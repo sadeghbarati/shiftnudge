@@ -1,0 +1,48 @@
+.sn-cta-group
+	display: grid
+	grid-template-columns: 1fr
+
+	p, a
+		text-align: center
+		position: relative
+	p
+		padding: 1rem 0
+	+bp-small
+		grid-template-columns: 16rem 1fr
+	+bp-medium
+		grid-template-columns: 22rem 1fr
+
+a.sn-cta-primary
+	color: $c-dark 
+	background: $c-grey-aaa
+	font-size: 1rem
+	display: block
+	padding: 1.25rem 0
+	border-radius: $sn-radius
+	width: 100%
+	text-align: center
+	margin: auto
+	text-shadow: none
+	animation: none
+	position: relative
+	+easeall
+	&:hover
+		background: $c-white
+		transform: translateY(-2px)
+		+easeall
+	+bp-large
+		// max-width: 20rem
+		display: inline-block
+
+.sn-cta-mock
+	padding: 1rem 2rem
+	box-shadow: 0 0 0 1px $c-grey-aa
+	color: $c-grey-aa
+
+.sn-cta-secondary
+	padding: 1rem 2rem
+	background: rgba($c-grey-aa, .1)
+	+easeall
+	&:hover
+		// color: $c-white
+		background: rgba($c-black, 1)

@@ -1,0 +1,24 @@
+.sn-table-container
+	padding: 2rem 1rem 
+	// box-shadow: 0 0 0 4px rgba($c-grey, .1)
+	border: 4px dotted rgba($c-grey-aa, .2)
+	display: none
+	+bp-small
+		padding: 3rem
+		display: block
+
+table
+	color: $c-grey-aaa
+	font-family: "Input Mono", monospace
+	font-size: 1rem
+	line-height: 2em
+	color: $c-grey-aa !important
+
+	tr
+		display: grid
+		grid-template-columns: .25fr 1fr
+		
+		td
+			&:first-child
+				// font-weight: bold
+				color: $c-grey-aa
