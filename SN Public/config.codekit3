@@ -869,6 +869,116 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/_assets/img/mds-gallery-01.png": {
+		"ft": 32768,
+		"iS": 1023266,
+		"oA": 0,
+		"oAP": "/build/_assets/img/mds-gallery-01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/mds-gallery-02.png": {
+		"ft": 32768,
+		"iS": 1014721,
+		"oA": 0,
+		"oAP": "/build/_assets/img/mds-gallery-02.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/mds-gallery-03.png": {
+		"ft": 32768,
+		"iS": 1427893,
+		"oA": 0,
+		"oAP": "/build/_assets/img/mds-gallery-03.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/mds-gallery-04.png": {
+		"ft": 32768,
+		"iS": 761374,
+		"oA": 0,
+		"oAP": "/build/_assets/img/mds-gallery-04.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/mds-gallery-05.png": {
+		"ft": 32768,
+		"iS": 1292399,
+		"oA": 0,
+		"oAP": "/build/_assets/img/mds-gallery-05.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/mds-gallery-06.png": {
+		"ft": 32768,
+		"iS": 1113902,
+		"oA": 0,
+		"oAP": "/build/_assets/img/mds-gallery-06.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/mds-gallery-07.png": {
+		"ft": 32768,
+		"iS": 1455238,
+		"oA": 0,
+		"oAP": "/build/_assets/img/mds-gallery-07.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/mds-gallery-08.png": {
+		"ft": 32768,
+		"iS": 683239,
+		"oA": 0,
+		"oAP": "/build/_assets/img/mds-gallery-08.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/mds-gallery-09.png": {
+		"ft": 32768,
+		"iS": 115871,
+		"oA": 0,
+		"oAP": "/build/_assets/img/mds-gallery-09.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/mds-gallery-10.png": {
+		"ft": 32768,
+		"iS": 169499,
+		"oA": 0,
+		"oAP": "/build/_assets/img/mds-gallery-10.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/_assets/img/mds.png": {
 		"ft": 32768,
 		"iS": 8172,
@@ -1721,7 +1831,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/critique-vault.html",
 		"oF": 0,
 		"oS": 0
@@ -1801,7 +1911,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/mds.html",
 		"oF": 0,
 		"oS": 0
