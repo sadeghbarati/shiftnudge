@@ -1,13 +1,112 @@
+.sn-module-group
+	padding: 20px 0 
+	font-variant: tabular-nums
+
 .sn-module
+
 	.sn-module-icon
 		display: grid
 		justify-content: center
 		border-radius: 20px
-		padding: 80px 0 
+		padding: 40px 0 
 		margin: auto
-		color: $c-teal
+		+easeall
 
+		+bp-medium
+			padding: 80px 0 
+			+easeall
+			
 		svg
 			width: 80px
+			height: 80px
 			margin: auto
 				
+	.sn-module-content
+		padding: 1.25rem 0 0 .625rem
+		position: relative
+
+		h3
+			padding-bottom: .25rem
+			display: inline-block
+
+			&:after
+				content: ""
+				position: absolute
+				display: block
+				width: 8rem
+				height: 8rem
+				background: linear-gradient(90deg, rgba($c-dark, 0) 0%, $c-dark 50%)
+				top: .5rem
+				right: 0
+				z-index: 0
+
+		.package-tag
+			position: absolute
+			padding: 4px 8px 3px 8px
+			border-radius: 1rem
+			top: 1.5rem
+			right: .625rem
+			z-index: 100
+
+			p
+				color: $c-dark
+				font-size: .875rem
+				+font-weight-bold
+				text-transform: uppercase
+				line-height: 1
+
+
+			&-core
+				background: $c-grey-aa
+
+			&-pro
+				background: $c-red
+
+		p
+			color: $c-grey-aa
+		ul
+			padding-top: .75rem
+			line-height: 2
+
+		li
+			color: $c-grey-aa
+			padding-right: .625rem
+			position: relative
+			+easeall
+			time
+				right: 10px
+				position: absolute
+
+		.sn-lessons
+			height: 9.5rem
+			overflow-y: hidden
+			position: relative
+			+easeall
+
+			&:before
+				content: ""
+				position: absolute
+				display: block
+				width: 100%
+				height: 100%
+				background: linear-gradient(0deg, rgba($c-dark, 1), rgba($c-dark, 0) 100%)
+				z-index: 100
+
+			&:hover
+				cursor: s-resize
+
+				li
+					color: $c-light
+					+easeall
+
+.sn-lessons--showing
+	padding-bottom: 1rem
+	height: auto !important
+	+easeall
+	&:before
+		opacity: 0 !important
+		+easeall
+	&:hover
+		cursor: n-resize !important
+			
+

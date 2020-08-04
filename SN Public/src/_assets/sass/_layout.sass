@@ -1,11 +1,24 @@
 .sn-wrapper
 	width: 100%
-	max-width: 1080px
+	max-width: 520px
 	margin: auto
 	padding: 0 20px
 
+	+bp-medium
+		max-width: 1080px
+		// max-width: 1440px
 
-.sn-grid-3
+	+bp-large
+		padding: 0
+		// padding: 0 20px
+
+.sn-grid
 	display: grid
-	grid-template-columns: 1fr 1fr 1fr
+	grid-template-columns: 1fr
 	grid-gap: 20px
+
+	+bp-medium
+		grid-template-columns: 1fr 1fr
+
+	+bp-large
+		grid-template-columns: 1fr 1fr 1fr
