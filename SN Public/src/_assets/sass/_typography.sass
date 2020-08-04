@@ -59,6 +59,31 @@ p.large
 ul, ol
 	@extend p
 
+ul.feature-list
+	margin-top: 0
+	li 
+		+easeall
+		cursor: default
+		list-style: none
+		margin: 0
+		span
+			color: $c-light
+		div
+			color: $c-light
+			margin-right: .5rem
+			display: inline-block
+			transition: transform cubic-bezier(0.68, -0.55, 0.265, 1.55) .25s
+			+easeall
+		mark
+			font-feature-settings: "smcp" 1
+			color: $c-grey-aa
+			background: none
+
+		&:hover
+			color: $c-light
+			div
+				transform: scale(1.5)
+
 blockquote
 	position: relative
 	color: $c-red
@@ -70,3 +95,10 @@ blockquote
 		position: absolute
 		top: 0
 		left: 0
+
+figcaption
+	font-size: .875rem
+	text-transform: uppercase
+	+font-weight-demibold
+	line-height: 90%
+	color: $c-light

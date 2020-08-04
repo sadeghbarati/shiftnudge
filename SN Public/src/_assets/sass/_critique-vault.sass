@@ -1,0 +1,76 @@
+.sn-critique-vault
+	h2
+		padding-bottom: 2rem
+	p
+		max-width: 60%
+		padding-bottom: 2rem
+
+.sn-critique-grid
+	position: relative
+
+	&:before
+		content: ""
+		display: block
+		width: 110%
+		height: 100%
+		position: absolute
+		bottom: 0
+		left: -5%
+		background: linear-gradient(0deg, rgba($c-dark, 1) 2rem, rgba($c-dark, 0) 60%)
+		z-index: 100
+		pointer-events: none
+	
+.sn-vault-vid
+	position: relative
+	background: $c-dark-accent
+	padding: 1.2rem
+	margin-bottom: 4px
+	border-radius: 4rem
+	cursor: default
+	display: inline-block
+	+easeslow
+
+	&:hover
+		color: $c-light
+		transform: scale(1.1)
+		background: lighten($c-dark-accent, 10)
+		+easeall
+
+a.sn-vault-vid
+	color: $c-teal !important
+	cursor: pointer 
+	display: inline-block
+	text-align: center
+	margin-left: 4px
+
+// .play-icon
+// 	position: relative
+// 	background-color: $c-grey-aaa
+// 	text-align: left
+// 	+easeall
+
+// .play-icon:before,
+// .play-icon:after
+// 	content: ''
+// 	position: absolute
+// 	background-color: inherit
+
+// .play-icon,
+// .play-icon:before,
+// .play-icon:after
+// 	width:  6px
+// 	height: 6px
+// 	border-top-right-radius: 30%
+
+// .play-icon
+// 	position: absolute
+// 	top: 15px
+// 	left: 16px
+// 	transform: rotate(-60deg) skewX(-30deg) scale(1,.866)
+
+// .play-icon:before
+// 	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%)
+
+// .play-icon:after
+// 	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%)
+

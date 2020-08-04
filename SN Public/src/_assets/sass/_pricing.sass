@@ -1,0 +1,118 @@
+.sn-packages
+	display: grid
+	grid-template-columns: 1fr
+	grid-gap: 20px
+	text-align: center
+	padding: 0 0 4rem
+	+easeall
+
+	+bp-medium
+		grid-template-columns: 1fr 1fr
+		+easeall
+
+	+bp-large
+		padding: 0 6rem 4rem
+		+easeall
+
+	.sn-package
+		border-radius: 20px
+		padding: 3rem 0 4rem
+		display: grid
+		justify-items: center
+		+easeall
+
+		svg
+			width: 40px
+			height: 40px
+
+		h2
+			padding: 1rem 0 .5rem
+
+		p
+			color: $c-grey-aa
+			padding-bottom: 1.5rem
+
+		ul
+			color: $c-grey-aaa
+			padding-bottom: 3rem
+			text-align: left
+			width: auto
+			margin: auto
+
+		li
+			line-height: 1.75
+
+		li.empty
+			display: none
+			+bp-medium
+				display: block
+
+.sn-core
+	background: $c-dark-accent
+	&:hover
+		background: lighten($c-dark-accent, 1.5)
+		+easeall
+
+	.sn-logo-shape
+		color: $c-teal
+	.sn-logo-bg
+		fill: $c-dark-accent
+
+	ul.feature-list li div
+		color: $c-teal
+		+font-weight-bold
+
+.sn-pro
+	border: 6px solid $c-dark-accent
+	&:hover
+		border: 6px solid $c-red
+		+easeall
+
+.sn-pro ul.feature-list li div
+	color: $c-red
+	+font-weight-bold
+
+.sn-cta
+	display: inline-block
+	padding: 1.25rem 3rem
+	font-size: 1rem
+	+font-weight-bold
+	border-radius: 2rem
+	text-decoration: none
+	
+.sn-core .sn-cta
+	color: $c-teal
+	background: $c-dark
+	box-shadow: 0 0 0 0 $c-dark
+	+easeall
+	&:hover
+		box-shadow: 0 0 0 4px $c-dark
+		+easeall
+
+.sn-pro .sn-cta
+	color: $c-dark
+	background: $c-red
+	box-shadow: 0 0 0 0 $c-red
+	+easeall
+	&:hover
+		box-shadow: 0 0 0 4px $c-red
+		+easeall
+
+// pro hover
+// animation: icon-animate-hover 2s 1 ease-in-out
+// transition: all .25s ease-out
+// stroke-width: .75
+// stroke-dasharray: 1000
+// stroke-dashoffset: 0
+// animation: icon-animate-in 8s 1 ease-in-out
+// transition: all .25s ease-out
+
+
+// change selection on core module to green
+.sn-packages .sn-package.sn-core::-moz-selection
+	background: rgba($c-teal, .1) !important
+	color: $c-teal !important
+
+.sn-packages .sn-package.sn-core::selection
+	background: rgba($c-teal, .1) !important
+	color: $c-teal !important

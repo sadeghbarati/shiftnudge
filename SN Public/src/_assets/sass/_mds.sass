@@ -1,0 +1,65 @@
+.sn-mds
+
+	h2
+		padding-top: 20px
+		padding-bottom: 2rem
+
+		+bp-medium
+			padding-bottom: 5rem			
+
+	.sn-mds-intro
+		display: grid
+		grid-template-columns: 1fr
+		grid-gap: 20px
+
+		+bp-medium
+			grid-template-columns: .25fr 1fr .75fr
+			grid-gap: 60px
+
+		+bp-xlarge
+			grid-template-columns: .25fr 1fr 1fr
+
+		img
+			width: 120px
+			height: 120px
+
+	.sn-mds-gallery
+		padding-top: 5rem
+
+		.sn-mds-gallery-image
+			position: relative
+			overflow: hidden
+
+			+bp-large
+				&:nth-child(1)
+					grid-column: span 3
+
+			&:before
+				content: ""
+				display: block
+				position: absolute
+				width: 100%
+				height: 100%
+				background: linear-gradient(0deg, rgba($c-black, .9) 0%, rgba($c-black, 0) 50%)
+				z-index: 100
+				+easeall
+
+			&:hover img
+				transform: scale(1.1)
+				+easeall
+
+			img
+				position: relative
+				width: 100%
+				z-index: 0
+				+easeslow
+
+			figcaption
+				text-align: center
+				position: absolute
+				bottom: 1.5rem
+				opacity: .8
+				left: 0%
+				right: 0%
+				z-index: 200
+
