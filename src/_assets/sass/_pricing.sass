@@ -65,7 +65,7 @@
 .sn-pro
 	border: 6px solid $c-dark-accent
 	&:hover
-		border: 6px solid $c-red
+		border: 6px solid lighten($c-dark-accent, 2.5)
 		+easeall
 
 .sn-pro ul.feature-list li div
@@ -97,22 +97,3 @@
 	&:hover
 		box-shadow: 0 0 0 4px $c-red
 		+easeall
-
-// pro hover
-// animation: icon-animate-hover 2s 1 ease-in-out
-// transition: all .25s ease-out
-// stroke-width: .75
-// stroke-dasharray: 1000
-// stroke-dashoffset: 0
-// animation: icon-animate-in 8s 1 ease-in-out
-// transition: all .25s ease-out
-
-
-// change selection on core module to green
-.sn-packages .sn-package.sn-core::-moz-selection
-	background: rgba($c-teal, .1) !important
-	color: $c-teal !important
-
-.sn-packages .sn-package.sn-core::selection
-	background: rgba($c-teal, .1) !important
-	color: $c-teal !important

@@ -1588,6 +1588,19 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/src/_assets/sass/_hero.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_assets/sass/_hero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/src/_assets/sass/_hr.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -1866,6 +1879,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/src/_includes/hero.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/hero.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/src/_includes/icon-play.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -1903,6 +1926,86 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/_includes/mds.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/_includes/module-icons/1-start.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/module-icons/1-start.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/_includes/module-icons/2-typography.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/module-icons/2-typography.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/_includes/module-icons/3-layout.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/module-icons/3-layout.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/_includes/module-icons/4-color.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/module-icons/4-color.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/_includes/module-icons/5-style.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/module-icons/5-style.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/_includes/module-icons/6-imagery.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/module-icons/6-imagery.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/_includes/module-icons/7-elements.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/module-icons/7-elements.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/_includes/module-icons/8-tactics.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/module-icons/8-tactics.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -1971,7 +2074,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/sn-logo-radial.html",
 		"oF": 0,
 		"oS": 0
@@ -2131,11 +2234,11 @@
 	},
 "projectAttributes": {
 	"creationDate": 592416630.43963099,
-	"displayValue": "SN Public",
+	"displayValue": "shiftnudge",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-red",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 618337339.51911294
+	"lastBuiltDate": 618342858.32113504
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

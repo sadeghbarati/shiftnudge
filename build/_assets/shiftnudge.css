@@ -261,6 +261,12 @@ p.large, ul.large, ol.large {
   line-height: 150%;
   font-weight: 500; }
 
+p.xlarge, ul.xlarge, ol.xlarge {
+  color: #616161;
+  font-size: 3.75rem;
+  line-height: 80%;
+  font-weight: 600; }
+
 ul.feature-list {
   margin-top: 0; }
   ul.feature-list li {
@@ -314,9 +320,6 @@ figcaption {
   @media (min-width: 1110px) {
     .sn-wrapper {
       padding: 0; } }
-  @media (min-width: 1800px) {
-    .sn-wrapper {
-      max-width: 1400px; } }
 .sn-grid-3 {
   display: grid;
   grid-template-columns: 1fr;
@@ -326,15 +329,14 @@ figcaption {
   transition: all .2s ease-out; }
   @media (min-width: 768px) {
     .sn-grid-3 {
+      max-width: none;
       grid-template-columns: 1fr 1fr;
-      max-width: 1080px;
       transition: all .2s ease-out; } }
   @media (min-width: 1110px) {
     .sn-grid-3 {
       grid-template-columns: 1fr 1fr 1fr; } }
   @media (min-width: 1110px) {
     .sn-grid-3 {
-      max-width: 1400px;
       transition: all .2s ease-out; } }
 .sn-grid-2 {
   display: grid;
@@ -343,6 +345,56 @@ figcaption {
   @media (min-width: 768px) {
     .sn-grid-2 {
       grid-template-columns: 1fr 1fr; } }
+.sn-hero {
+  padding-top: 12rem; }
+  .sn-hero .sn-title {
+    position: relative; }
+    .sn-hero .sn-title h1 {
+      text-indent: 7rem;
+      transition: all .2s ease-out; }
+      @media (min-width: 1110px) {
+        .sn-hero .sn-title h1 {
+          text-indent: 0; } }
+  .sn-hero .sn-logo {
+    position: absolute;
+    top: 0;
+    left: .75rem;
+    transition: all .2s ease-out; }
+    @media (min-width: 1110px) {
+      .sn-hero .sn-logo {
+        transform: translateX(-7rem);
+        transition: all .2s ease-out; } }
+  .sn-hero .sn-desc {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4rem; }
+    @media (min-width: 768px) {
+      .sn-hero .sn-desc {
+        grid-gap: 10rem;
+        grid-template-columns: 2fr 1fr; } }
+  .sn-hero p.xlarge, .sn-hero ul.xlarge, .sn-hero ol.xlarge {
+    padding-top: 5rem;
+    max-width: 50rem; }
+  .sn-hero ul.feature-list div {
+    color: #FF4D6A;
+    line-height: 200%; }
+  .sn-hero .sn-meta {
+    padding: 8rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 4rem;
+    font-variant: tabular-nums; }
+    @media (min-width: 768px) {
+      .sn-hero .sn-meta {
+        grid-template-columns: repeat(4, 1fr); } }
+  .sn-hero .sn-meta-container h2 div {
+    display: inline;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-left: 0.5rem;
+    position: absolute;
+    color: #FF4D6A; }
+
 .sn-mds h2 {
   padding-top: 20px;
   padding-bottom: 2rem; }
@@ -410,6 +462,9 @@ figcaption {
     .sn-module .sn-module-icon {
       padding: 80px 0;
       transition: all .2s ease-out; } }
+  @media (min-width: 1110px) {
+    .sn-module .sn-module-icon {
+      transition: all .2s ease-out; } }
   .sn-module .sn-module-icon svg {
     width: 80px;
     height: 80px;
@@ -473,7 +528,8 @@ figcaption {
       width: 100%;
       height: 100%;
       background: linear-gradient(0deg, #111111, rgba(17, 17, 17, 0) 100%);
-      z-index: 100; }
+      z-index: 100;
+      transition: all .2s ease-out; }
     .sn-module .sn-module-content .sn-lessons:hover {
       cursor: s-resize; }
       .sn-module .sn-module-content .sn-lessons:hover li {
@@ -591,7 +647,7 @@ a.sn-vault-vid {
 .sn-pro {
   border: 6px solid #181818; }
   .sn-pro:hover {
-    border: 6px solid #FF4D6A;
+    border: 6px solid #1e1e1e;
     transition: all .2s ease-out; }
 
 .sn-pro ul.feature-list li div {
@@ -624,14 +680,6 @@ a.sn-vault-vid {
     box-shadow: 0 0 0 4px #FF4D6A;
     transition: all .2s ease-out; }
 
-.sn-packages .sn-package.sn-core::-moz-selection {
-  background: rgba(0, 255, 170, 0.1) !important;
-  color: #00FFAA !important; }
-
-.sn-packages .sn-package.sn-core::selection {
-  background: rgba(0, 255, 170, 0.1) !important;
-  color: #00FFAA !important; }
-
 .sn-pricing-faqs h5 {
   text-align: center;
   padding: 2rem 0 6rem; }
@@ -662,7 +710,6 @@ a.sn-vault-vid {
     transition: all .2s ease-out; }
     @media (min-width: 1800px) {
       .sn-mini-faq-grid .sn-mini-faq {
-        padding: 0 5rem;
         transition: all .2s ease-out; } }
 .sn-final-cta {
   text-align: center;
