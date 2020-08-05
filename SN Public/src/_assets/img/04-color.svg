@@ -1,6 +1,0 @@
-<svg id="target" width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle opacity="0.1" cx="36" cy="36" r="36" fill="#ED5151"/>
-<path opacity="0.6" fill-rule="evenodd" clip-rule="evenodd" d="M50 53L32.7281 53L48.7281 37L50 37C52.2091 37 54 38.7908 54 41V49C54 51.2091 52.2091 53 50 53Z" fill="#ED5151"/>
-<path opacity="0.8" fill-rule="evenodd" clip-rule="evenodd" d="M37.6703 23.0784C39.2324 21.5163 41.7651 21.5163 43.3272 23.0784L48.984 28.7353C50.5461 30.2974 50.5461 32.83 48.984 34.3921L37.0007 46.3755L37.0007 23.748L37.6703 23.0784Z" fill="#ED5151"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23 18C20.7909 18 19 19.7909 19 22V45C19 49.4183 22.5817 53 27 53C31.4183 53 35 49.4183 35 45V22C35 19.7909 33.2092 18 31 18H23ZM27 48C28.6569 48 30 46.6569 30 45C30 43.3431 28.6569 42 27 42C25.3432 42 24 43.3431 24 45C24 46.6569 25.3432 48 27 48Z" fill="#ED5151"/>
-</svg>

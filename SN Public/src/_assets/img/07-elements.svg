@@ -1,7 +1,0 @@
-<svg id="target" width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle opacity="0.1" cx="36" cy="36" r="36" fill="#3399FF"/>
-<rect opacity="0.6" x="17" y="36" width="18" height="18" rx="4" fill="#3399FF"/>
-<rect opacity="0.6" x="37" y="16" width="18" height="18" rx="4" fill="#3399FF"/>
-<rect x="17" y="16" width="18" height="18" rx="4" fill="#3399FF"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M41 36C38.7909 36 37 37.7909 37 40V51.1716C37 52.9534 39.1543 53.8457 40.4142 52.5858L44.1716 48.8284L49.1716 53.8284C50.7337 55.3905 53.2663 55.3905 54.8284 53.8284C56.3905 52.2663 56.3905 49.7337 54.8284 48.1716L49.8284 43.1716L53.5858 39.4142C54.8457 38.1543 53.9534 36 52.1716 36H41Z" fill="#3399FF"/>
-</svg>
