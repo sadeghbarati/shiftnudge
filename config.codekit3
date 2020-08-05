@@ -1744,6 +1744,19 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/src/_assets/sass/_right-for-me.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_assets/sass/_right-for-me.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/src/_assets/sass/_table.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -2046,6 +2059,16 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/_includes/quote.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/_includes/right-for-me.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/right-for-me.html",
 		"oF": 0,
 		"oS": 0
 		},
