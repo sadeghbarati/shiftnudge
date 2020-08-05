@@ -15,16 +15,6 @@
 		"oAP": "/build/build",
 		"oF": 0
 		},
-	"/src/404/index.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/404/index.html",
-		"oF": 0,
-		"oS": 0
-		},
 	"/src/_assets/fonts/TTFirsNeue-Black.eot": {
 		"cB": 0,
 		"ft": 8192,
