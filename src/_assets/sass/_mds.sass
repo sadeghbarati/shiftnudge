@@ -29,6 +29,7 @@
 		.sn-mds-gallery-image
 			position: relative
 			overflow: hidden
+			// border-radius: 20px
 
 			// +bp-large
 			// 	&:nth-child(1)
@@ -44,9 +45,14 @@
 				z-index: 100
 				+easeall
 
-			&:hover img
-				transform: scale(1.1)
+			&:hover
+				mix-blend-mode: normal
 				+easeall
+
+				img
+					transform: scale(1.1)
+					opacity: 1				
+					+easeall
 
 			img
 				position: relative

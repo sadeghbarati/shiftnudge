@@ -11,7 +11,7 @@
 	.sn-type-grid
 		display: grid
 		grid-template-columns: 1fr
-		grid-column-gap: 6rem
+		grid-column-gap: 8rem
 		grid-row-gap: 4rem
 		padding-bottom: 6rem
 
@@ -19,14 +19,34 @@
 			grid-template-columns: 1fr 1fr
 
 	.sn-student-type
-		padding-left: 2.75rem
+		padding-left: 2.5rem
 
-		h4 
-			text-indent: -2.75rem
+		.emoji
+			font-size: 1.75rem
+			display: inline-block
+			transform-origin: center left
+			text-align: center
+			position: relative
+			top: 4px
+			+easeall
+
+		&:hover .emoji
+			transform: scale(1.25)
+			+easeall
+
+		h6 
+			text-indent: -1.3rem
 			padding: 1rem 0 1rem
+
+		p
+			max-width: 30rem
 
 	h3
 		padding: 1rem 0 2rem
 		max-width: 38rem
 		line-height: 120%
+
+		em
+			color: $c-grey-aa
+			+font-weight-demibold
 			

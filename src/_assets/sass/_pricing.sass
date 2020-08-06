@@ -29,12 +29,17 @@
 			padding: 1rem 0 .5rem
 
 		p
-			color: $c-grey-aa
-			padding-bottom: 1.5rem
+			color: $c-grey-aaa
+			padding-bottom: 2rem
+
+			em
+				font-size: .875rem
+				font-style: italic
+				color: $c-grey-aa
 
 		ul
 			color: $c-grey-aaa
-			padding-bottom: 3rem
+			padding-bottom: 3.5rem
 			text-align: left
 			width: auto
 			margin: auto
@@ -65,7 +70,8 @@
 .sn-pro
 	border: 6px solid $c-dark-accent
 	&:hover
-		border: 6px solid lighten($c-dark-accent, 2.5)
+		border: 6px solid $c-red
+		// border: 6px solid lighten($c-dark-accent, 2.5)
 		+easeall
 
 .sn-pro ul.feature-list li div
@@ -81,11 +87,12 @@
 	text-decoration: none
 	
 .sn-core .sn-cta
-	color: $c-teal
+	color: rgba($c-teal, .8)
 	background: $c-dark
 	box-shadow: 0 0 0 0 $c-dark
 	+easeall
 	&:hover
+		color: $c-teal
 		box-shadow: 0 0 0 4px $c-dark
 		+easeall
 
@@ -95,5 +102,6 @@
 	box-shadow: 0 0 0 0 $c-red
 	+easeall
 	&:hover
+		color: $c-black
 		box-shadow: 0 0 0 4px $c-red
 		+easeall

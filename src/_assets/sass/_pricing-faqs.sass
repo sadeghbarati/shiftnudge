@@ -9,6 +9,17 @@
 	grid-gap: 4rem
 	+easeall
 
+	+bp-medium
+		grid-template-columns: 1fr 1fr
+		grid-gap: 4rem
+		margin: auto
+		+easeall
+
+	+bp-large
+		grid-gap: 2rem
+		padding: 0 3rem 5rem
+		+easeall
+
 	h6
 		padding-bottom: 1rem
 		+easeall
@@ -17,20 +28,10 @@
 		color: $c-grey-aa
 		+easeall
 
-	+bp-medium
-		grid-template-columns: 1fr 1fr
-		grid-gap: 4rem
-		margin: auto
-		+easeall
-
-	+bp-large
-		padding: 0 6rem 4rem
-		+easeall
-
 	.sn-mini-faq
 		padding: 0 2rem
 		+easeall
 
-		+bp-xlarge
-			// padding: 0 5rem
+		+bp-medium
+			padding: 0 4rem
 			+easeall

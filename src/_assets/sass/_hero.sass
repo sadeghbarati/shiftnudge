@@ -20,7 +20,7 @@
 		+bp-large
 			transform: translateX(-7rem)
 			+easeall
-	
+
 	.sn-desc
 		display: grid
 		grid-template-columns: 1fr
@@ -29,7 +29,7 @@
 		+bp-medium
 			grid-gap: 10rem
 			grid-template-columns: 2fr 1fr
-
+			
 	p.xlarge
 		padding-top: 5rem
 		max-width: 50rem
@@ -46,17 +46,21 @@
 		font-variant: tabular-nums
 
 		+bp-medium
-			grid-template-columns: repeat(4, 1fr)
+			grid-template-columns: repeat(4, auto)
 
-	.sn-meta-container h2 div
-		display: inline
-		font-size: 1.75rem
-		+font-weight-bold
-		margin-left: 0.5rem
-		position: absolute
-		color: $c-red
-
-
+	.sn-meta-container h2
+		font-size: 6rem
+		color: $c-light
+		// -webkit-text-stroke-width: 2px
+		// -webkit-text-stroke-color: $c-grey-aa-large
+		div
+			display: inline
+			font-size: 1.75rem
+			+font-weight-bold
+			margin-left: 0.5rem
+			position: absolute
+			color: $c-red
+			-webkit-text-stroke-width: 0
 
 // anime js test stuff
 

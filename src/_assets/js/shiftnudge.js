@@ -64,7 +64,7 @@ $(document).ready(function() {
 	$('.copyright').html('©'+year);
 
 	// randomize order of testimonials
-	var cards = $(".sn-student-quote");
+	var cards = $(".sn-review-page .sn-student-quote");
 	for(var i = 0; i < cards.length; i++){
 	    var target = Math.floor(Math.random() * cards.length -1) + 1;
 	    var target2 = Math.floor(Math.random() * cards.length -1) +1;

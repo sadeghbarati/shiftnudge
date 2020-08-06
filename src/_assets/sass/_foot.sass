@@ -1,0 +1,77 @@
+.sn-footer
+	padding: 4rem 0
+
+	.mds-signoff
+		display: grid
+		grid-template-columns: 80px 1fr
+		padding-bottom: 3rem
+		color: $c-light
+		// border: 1px solid red
+		max-width: 200px
+		+easeall
+
+		&:hover .sig-path
+		  animation: dash 2s ease-in-out forwards
+		  +easeall
+
+		.mds
+			max-width: 60px
+
+		.mds-signature
+			max-width: 100px
+			display: block
+
+			.sig-path
+				stroke-dasharray: 1000
+				// stroke-dashoffset: 1000
+
+				@keyframes dash
+					from
+						stroke-dashoffset: 1000
+					to
+						stroke-dashoffset: 0
+
+	.sn-footer-grid
+		display: grid
+		grid-template-columns: 1fr
+		grid-gap: 2rem
+
+		+bp-medium
+			grid-gap: 4rem
+			grid-template-columns: 1fr 1fr
+
+		+bp-large
+			grid-gap: 4rem
+			grid-template-columns: 2.25fr 1.25fr 1fr
+
+		.sn-footer-piece
+			h6
+				padding-bottom: 1rem
+				text-transform: uppercase
+
+			p
+				color: $c-grey-aa
+
+			.line-arrow
+				float: left
+				margin-right: .5rem
+
+			.arrow
+				transform: translateX(-.25rem)
+				+easeall
+
+			.line
+				transform: scaleX(.75)
+				+easeall
+
+			a:hover
+				.arrow
+					transform: translateX(0)
+					+easeall
+
+				.line
+					transform: scaleX(1)
+					+easeall
+
+	.sn-legal
+		padding: 6rem 0 0

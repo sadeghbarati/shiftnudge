@@ -35,3 +35,38 @@
 		.sn-meta-container
 			h2 500 <div>+</div>
 			p design critiques
+
+	.sn-quote-group
+
+		//- -------- quote -------- //
+		.sn-student-quote.item
+			- studentName		="Ramon Gilabert";
+			- studentTitle	="Microsoft";
+			- studentImage	="../_assets/img/students/ramon.png";
+			- studentQuote	="I’ve taken many courses—recently a masters in interaction design—and I’ve read every book, but your course is by far the most comprehensive, well explained, well structured, and <em>most actionable resource in design I’ve ever taken.</em>";
+			include ../_includes/quote.pug
+
+		//- -------- quote -------- //
+		.sn-student-quote.item
+			- studentName		="Boma Josia";
+			- studentTitle	="Product Designer";
+			- studentImage	="../_assets/img/students/boma.png";
+			- studentQuote	="This is the most impactful design course I’ve ever taken. I especially love the tasks for each lesson and personal feedback from MDS. <em>It’s all been incredibly worthwhile!</em>";
+			include ../_includes/quote.pug
+
+		//- -------- quote -------- //
+		.sn-student-quote.item
+			- studentName		="Jenny Vogel";
+			- studentTitle	="Growflow";
+			- studentImage	="../_assets/img/students/jenny.png";
+			- highlight			=highlightYellow;
+			- studentQuote	="<em>I would’ve paid 4x more for this course</em>—Matt is an incredible teacher! This was exactly what I needed to take my designs to the next level.";
+			include ../_includes/quote.pug
+
+		//- -------- quote -------- //
+		.sn-student-quote.item
+			- studentName		="Stephen Asonye";
+			- studentTitle	="Order My Gear";
+			- studentImage	="../_assets/img/students/stephen.png";
+			- studentQuote	="Not gonna lie... this is the <em>best design course</em> I've ever taken.";
+			include ../_includes/quote.pug

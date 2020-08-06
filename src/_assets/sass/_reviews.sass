@@ -1,113 +1,41 @@
-.sn-testimonials
-	margin-top: 10rem
-	display: grid
-	grid-template-columns: 1fr
-	grid-gap: 4rem
-	padding-bottom: 4rem
-	+bp-small
-		margin-top: 9rem
-		grid-template-columns: 1fr 1fr
-	+bp-large
-		grid-template-columns: 1fr 1fr 1fr
-		grid-gap: 3.5rem
-	+bp-xlarge
-		grid-gap: 4rem
+.sn-review-page
+	margin: 20px
 
-
-.sn-testimonial
-	margin-top: 0rem
-	border-radius: $sn-radius
-	+easeall
-
-	&:nth-child(1)
-		cursor: url('../_assets/img/emoji/clap.png'), auto
-
-	&:nth-child(2)
-		cursor: url('../_assets/img/emoji/tongue.png'), auto
-
-	&:nth-child(3)
-		cursor: url('../_assets/img/emoji/smile.png'), auto
-
-	&:nth-child(4)
-		cursor: url('../_assets/img/emoji/rock.png'), auto
-
-	&:nth-child(5)
-		cursor: url('../_assets/img/emoji/thumbs.png'), auto
-
-	&:nth-child(6)
-		cursor: url('../_assets/img/emoji/heart.png'), auto
-
-	&:hover
-		blockquote p
-			color: $c-grey-aaa
-			+easeall
-		
-		.sn-student-avatar
-			transform: scale(1.125)
-			background: $c-pink
-			+easeall
-
-			img
-				mix-blend-mode: luminosity
-
-	.sn-student-avatar
-		width: 32px
-		height: 32px
-		border-radius: 50%
-		+easeall
-
-	img
-		width: 32px
-		height: 32px
-		
-
-	blockquote p
-		color: $c-light
-		font-size: 1.325rem
-		font-weight: 600
-		line-height: 1.125em
-		margin-bottom: 1.5rem
-		+easeall
-		
-		+bp-large
-			font-size: 1.75rem
-			+easeall
-		
-	
-	.sn-student
-		display: grid
-		grid-template-columns: 48px 1fr
-		align-items: center
-
-		cite
-			font-size: 1rem
-			text-transform: uppercase
-			color: $c-grey-aaa
-
-
-// new testimonial styles as of July 20, 2020
 .sn-quote-group
 	display: grid
-	margin: 10px
 	grid-gap: 10px
 	grid-template-columns: repeat(auto-fill, minmax(300px,1fr))
 	grid-auto-rows: 20px
 	+font-weight-demibold
 	+bp-medium
-		margin: 20px
 		grid-gap: 20px
-		grid-template-columns: repeat(auto-fill, minmax(420px,1fr))
+		grid-template-columns: repeat(auto-fill, minmax(440px,1fr))
 	+bp-xlarge
-		grid-template-columns: repeat(auto-fill, minmax(520px,1fr))
+		grid-template-columns: repeat(auto-fill, minmax(560px,1fr))
 
 .sn-student-quote
-	background: $c-dark-accent
 	padding: 2.75rem
+	// position: relative
+	// overflow: hidden
 	+easeall
+
+	// &:before
+	// 	content: ""
+	// 	display: block
+	// 	width: 40px
+	// 	height: 40px
+	// 	background: $c-dark-accent
+	// 	position: absolute
+	// 	top: -24px
+	// 	left: -24px
+	// 	transform: rotate(45deg)
+
 	+bp-medium
 		padding: 3.75rem
+	
 	&:hover
-		background: lighten($c-dark-accent, 2)
+		// background: lighten($c-dark-accent, 2)
+		background: $c-dark-accent
 		transform: scale(1.025)
 		+easeall
 		p
@@ -120,11 +48,12 @@
 				mix-blend-mode: luminosity
 				+easeall
 	p
-		color: $c-light
+		color: $c-grey-aaa
 		font-size: 2rem
 		line-height: 2rem
 		display: inline-block
 		padding-bottom: 3rem
+		font-style: italic
 		+easeall
 		+bp-medium
 			font-size: 2.5rem
@@ -156,6 +85,7 @@
 			text-transform: uppercase
 		h4
 			color: $c-white
+			line-height: 150%
 		h5
 			color: $c-grey-aa
 

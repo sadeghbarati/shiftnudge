@@ -1,0 +1,62 @@
+.sn-how
+  h2
+    padding-bottom: 4rem
+
+  .sn-how-desc
+    display: grid
+    grid-template-columns: 1fr
+    grid-gap: 4rem
+    padding-bottom: 6rem
+
+    +bp-medium
+      grid-gap: 6rem
+      grid-template-columns: 1.25fr 1fr
+
+    ul
+      margin-left: 1.8rem
+      li
+        padding-bottom: 1rem
+
+        div
+          margin-left: -1.8rem
+
+  .sn-step
+    display: grid
+    grid-template-columns: 1fr
+    padding: 4rem 0
+    box-shadow: inset 0 2px 0 0 $c-dark-accent
+    position: relative
+
+    +bp-medium
+      grid-template-columns: .25fr 1fr auto
+      padding: 4rem 0 6rem
+
+    &:hover h2
+      color: $c-dark-accent
+      +easeall
+
+    h2
+      font-size: 14rem
+      text-align: right
+      display: inline
+      color: $c-dark
+      -webkit-text-stroke-width: 2px
+      -webkit-text-stroke-color: $c-dark-accent
+      font-variant: tabular-nums
+      position: absolute
+      z-index: 0
+      right: 0
+      align-self: end
+      +easeall
+
+    h6 
+      line-height: 220%
+      text-transform: uppercase
+      padding-bottom: 2rem
+      position: relative
+      z-index: 100
+
+    p
+      max-width: 24rem
+      position: relative
+      z-index: 100
