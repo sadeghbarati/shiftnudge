@@ -21,8 +21,6 @@ $colors: $c-teal, $c-yellow, $c-orange, $c-red, $c-pink, $c-purple, $c-blue, $c-
 		box-shadow: inset 0 0 0 6px nth($colors, $i)
 
 	.sn-module-overview:nth-child(#{length($colors)}n+#{$i}) .sn-module-icon,	
-	.sn-module-overview:nth-child(#{length($colors)}n+#{$i}) .sn-module-desc h6
+	.sn-module-overview:nth-child(#{length($colors)}n+#{$i}) .sn-module-desc h6,
+	.sn-module-overview:nth-child(#{length($colors)}n+#{$i}) .sn-module-desc blockquote
 		color: nth($colors, $i)
-
-	// .sn-module-overview:nth-child(#{length($colors)}n+#{$i}) .sn-module-icon
-	// 	border: 2px solid nth($colors, $i)

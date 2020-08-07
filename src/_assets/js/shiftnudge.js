@@ -51,7 +51,7 @@ $(document).ready(function() {
 
 	// show hide full lesson list
 	$('.sn-module').on( "click", function(event) {
-		$('.sn-lessons').toggleClass( "sn-lessons--showing" );
+		$('.sn-module').toggleClass( "sn-lessons--showing" );
 	});
 
 	$(".formkit-field input").on('focus blur', function(){

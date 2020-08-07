@@ -1,3 +1,8 @@
+.sn-pricing
+	h5
+		text-align: center
+		padding-bottom: 2rem
+
 .sn-packages
 	display: grid
 	grid-template-columns: 1fr
@@ -10,7 +15,7 @@
 		grid-template-columns: 1fr 1fr
 		+easeall
 
-	+bp-large
+	+bp-xxlarge
 		padding: 0 6rem 4rem
 		+easeall
 
@@ -43,6 +48,7 @@
 			text-align: left
 			width: auto
 			margin: auto
+			+font-weight-medium
 
 		li
 			line-height: 1.75
@@ -62,6 +68,7 @@
 		color: $c-teal
 	.sn-logo-bg
 		fill: $c-dark-accent
+		opacity: 0
 
 	ul.feature-list li div
 		color: $c-teal
@@ -73,6 +80,11 @@
 		border: 6px solid $c-red
 		// border: 6px solid lighten($c-dark-accent, 2.5)
 		+easeall
+
+	.sn-logo-shape
+		color: $c-dark
+	.sn-logo-bg
+		fill: $c-red
 
 .sn-pro ul.feature-list li div
 	color: $c-red

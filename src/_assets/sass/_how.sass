@@ -31,9 +31,13 @@
       grid-template-columns: .25fr 1fr auto
       padding: 4rem 0 6rem
 
-    &:hover h2
-      color: $c-dark-accent
-      +easeall
+    &:hover
+      h2
+        color: $c-dark-accent
+        +easeall
+      h6
+        color: $c-light
+        +easeall
 
     h2
       font-size: 14rem
@@ -55,6 +59,8 @@
       padding-bottom: 2rem
       position: relative
       z-index: 100
+      color: $c-grey-aaa
+      +easeall
 
     p
       max-width: 24rem

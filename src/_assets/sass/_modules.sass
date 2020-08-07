@@ -6,6 +6,10 @@
 		max-width: 1800px
 
 .sn-module
+	padding-bottom: 1rem
+
+	&:hover
+		cursor: s-resize
 
 	.sn-module-icon
 		display: grid
@@ -19,8 +23,12 @@
 			padding: 80px 0 
 			+easeall
 
-		+bp-large
+		+bp-xxlarge
 			padding: 100px 0 
+			+easeall
+
+		+bp-xlarge
+			padding: 140px 0 
 			+easeall
 			
 		svg
@@ -62,7 +70,7 @@
 			position: absolute
 			padding: 4px 8px 3px 8px
 			border-radius: 1rem
-			top: 2em
+			top: 2.125em
 			right: .625rem
 			z-index: 100
 
@@ -73,7 +81,6 @@
 				text-transform: uppercase
 				line-height: 1
 				padding: 0
-
 
 			&-core
 				background: $c-grey-aa
@@ -87,6 +94,7 @@
 		ul
 			padding-top: .75rem
 			line-height: 1.75
+			max-width: none
 
 		li
 			color: $c-grey-aa
@@ -113,21 +121,19 @@
 				z-index: 100
 				+easeall
 
-			&:hover
-				cursor: s-resize
-
 				li
 					color: $c-light
 					+easeall
 
 .sn-lessons--showing
-	padding-bottom: 1rem
-	height: auto !important
-	+easeall
-	&:before
-		opacity: 0 !important
-		+easeall
 	&:hover
-		cursor: n-resize !important
-			
+			cursor: n-resize !important
+	.sn-lessons
+		padding-bottom: 1rem
+		height: auto !important
+		+easeall
+		&:before
+			opacity: 0 !important
+			+easeall
+				
 

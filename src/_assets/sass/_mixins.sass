@@ -2,7 +2,8 @@ $xsmall-width: 375px
 $small-width: 640px
 $medium-width: 768px
 $large-width: 1110px
-$xlarge-width: 1800px
+$xlarge-width: 1300px
+$xxlarge-width: 1800px
 
 =bp-xsmall 
   @media (min-width: #{$xsmall-width})
@@ -22,6 +23,10 @@ $xlarge-width: 1800px
 
 =bp-xlarge
   @media (min-width: #{$xlarge-width})
+    @content
+
+=bp-xxlarge
+  @media (min-width: #{$xxlarge-width})
     @content
 
 =easeall

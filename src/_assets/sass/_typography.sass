@@ -3,12 +3,16 @@ h1, h2, h3, h4, h5
 
 h1
 	color: $c-dark
-	// font-size: 16rem
 	font-size: 7.5rem
 	line-height: 75%
 	+font-weight-black
 	-webkit-text-stroke-width: 2px
 	-webkit-text-stroke-color: $c-grey-aa-large
+	+easeall
+
+	+bp-xlarge
+		font-size: 12rem
+		+easeall
 
 h2
 	color: $c-light
@@ -80,6 +84,7 @@ p.xlarge
 	line-height: 80%
 	+font-weight-demibold
 
+
 ul, ol
 	@extend p
 
@@ -125,7 +130,7 @@ blockquote
 
 figcaption
 	font-size: .875rem
-	text-transform: uppercase
-	+font-weight-demibold
+	// text-transform: uppercase
+	+font-weight-medium
 	line-height: 90%
 	color: $c-light

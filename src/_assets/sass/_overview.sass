@@ -1,5 +1,43 @@
 .sn-overview
 
+	.sn-desc
+		display: grid
+		grid-template-columns: 1fr
+		grid-gap: 4rem
+
+		+bp-medium
+			grid-gap: 10rem
+			grid-template-columns: 2fr 1fr
+			
+	ul.feature-list div
+		color: $c-red
+		line-height: 200%
+
+	.sn-meta
+		padding: 8rem 0 
+		display: grid
+		grid-template-columns: 1fr 1fr
+		grid-row-gap: 4rem
+		font-variant: tabular-nums
+
+		+bp-medium
+			grid-template-columns: repeat(4, auto)
+
+	.sn-meta-container h2
+		font-size: 6rem
+		// color: $c-light
+		color: $c-dark
+		-webkit-text-stroke-width: 2px
+		-webkit-text-stroke-color: $c-grey-aa-large
+		div
+			display: inline
+			font-size: 1.75rem
+			+font-weight-bold
+			margin-left: 0.5rem
+			position: absolute
+			color: $c-red
+			-webkit-text-stroke-width: 0
+
 	.sn-module-overview
 		display: grid
 		grid-template-columns: .25fr 1fr
@@ -38,4 +76,4 @@
 
 			blockquote
 				max-width: 26rem
-				color: $c-grey-aa
+				// color: $c-grey-aa

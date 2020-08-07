@@ -4,43 +4,26 @@
 .sn-quote-group
 	display: grid
 	grid-gap: 10px
-	grid-template-columns: repeat(auto-fill, minmax(300px,1fr))
+	grid-template-columns: repeat(auto-fill, minmax(440px,1fr))
 	grid-auto-rows: 20px
 	+font-weight-demibold
-	+bp-medium
-		grid-gap: 20px
-		grid-template-columns: repeat(auto-fill, minmax(440px,1fr))
-	+bp-xlarge
-		grid-template-columns: repeat(auto-fill, minmax(560px,1fr))
 
 .sn-student-quote
 	padding: 2.75rem
-	// position: relative
-	// overflow: hidden
 	+easeall
-
-	// &:before
-	// 	content: ""
-	// 	display: block
-	// 	width: 40px
-	// 	height: 40px
-	// 	background: $c-dark-accent
-	// 	position: absolute
-	// 	top: -24px
-	// 	left: -24px
-	// 	transform: rotate(45deg)
 
 	+bp-medium
 		padding: 3.75rem
 	
 	&:hover
-		// background: lighten($c-dark-accent, 2)
 		background: $c-dark-accent
 		transform: scale(1.025)
 		+easeall
+
 		p
 			color: $c-white
 			+easeall
+
 		.sn-student-avatar
 			transform: scale(1.05)
 			+easeall
@@ -48,44 +31,56 @@
 				mix-blend-mode: luminosity
 				+easeall
 	p
-		color: $c-grey-aaa
-		font-size: 2rem
-		line-height: 2rem
+		color: $c-grey-aa-large
+		font-size: 1.5rem
+		line-height: 100%
 		display: inline-block
 		padding-bottom: 3rem
 		font-style: italic
 		+easeall
+
 		+bp-medium
-			font-size: 2.5rem
-			line-height: 2.5rem
+			font-size: 2rem
 			padding-bottom: 3.25rem
+
 		em
 			color: $c-dark
 			+font-weight-demibold
+			padding: 0 .25rem
+
 	.sn-student
 		display: grid
 		grid-template-columns: 120px 1fr
 		padding-bottom: 3.325rem
+
 	.sn-student-avatar
 		border-radius: 50%
 		width: 80px
 		height: 80px
 		box-shadow: 0 0 0 0 $c-black
 		+easeall
+
 		img
 			border-radius: 50%
 			width: 80px
 			height: 80px
 			+easeall
+
 	.sn-student-info
-		text-align: right
+		text-align: left
 		align-self: center
+
+		+bp-medium
+			text-align: right
+
 		h4, h5
 			font-size: 1em
 			text-transform: uppercase
+
 		h4
 			color: $c-white
 			line-height: 150%
+
 		h5
 			color: $c-grey-aa
 
