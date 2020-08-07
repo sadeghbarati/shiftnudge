@@ -1,0 +1,21 @@
+.sn-wrapper.sn-interior
+	include ../_includes/header-interior
+	.sn-signup-grid
+		.sn-interior-content
+			h1 Join Shift Nudge
+			p.callout You’re just 60 seconds away from securing your spot in Shift Nudge !{package}.
+			p Get ready to learn interface design in the most approachable, most fun, and most thorough way possible. You'll benefit from this for the rest of your life.
+			p Remember, there’s a 30-day, money back guarantee. This is a risk-free investment in your future.
+			.mds-message
+				.mds-avatar
+					img(src="../_assets/img/mds-avatar.png" alt="mds headshot")
+				p Thanks for joining Shift Nudge! #[br] I'm excited to see you inside.
+		div(class='sn-signup-panel sn-' + package)
+			include ../_includes/sn-logo-default.pug
+			h6 !{package}
+			.payment-options
+				a.payment-option.payment-option-monthly.is-selected(href="#") !{paymentMonthly}
+				a.payment-option.payment-option-one-time(href="#") !{paymentOneTime}
+			p.countdown Closes in 12d 17h 23m 57s
+			a.sn-cta(href="#monthly") Join Shift Nudge !{package}
+			p.legal I authorize Studio MDS, LLC to charge me for the order total. The name and personal information I provide on the payment form will be true and correct. I have read, understand and accept the Studio MDS terms as published on their website. By joining the course, I agree to pay Studio MDS.

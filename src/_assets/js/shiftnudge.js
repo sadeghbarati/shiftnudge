@@ -71,6 +71,20 @@ $(document).ready(function() {
 	    cards.eq(target).before(cards.eq(target2));
 	}
 
+	// toggle payment options
+	$('.payment-option').on( "click", function(event) {
+
+		$('.payment-option-monthly').toggleClass( "is-selected" );
+		$('.payment-option-one-time').toggleClass( "is-selected" );
+
+		if ($( ".payment-option-monthly" ).hasClass( "is-selected" )) {
+			$(".sn-cta").attr("href", "#monthly")
+		} else {
+			$(".sn-cta").attr("href", "#onetime")
+		}
+		
+	});
+
 	// anime.js stuff
 	// Wrap every letter in a span
 	

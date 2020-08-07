@@ -1,0 +1,18 @@
+extends ../_includes/layout.pug
+
+block head
+	title Shift Nudge – Core
+
+	block stylesandscripts
+	link(rel="stylesheet" type="text/css" href="../_assets/shiftnudge.css")
+	link(id="favicon" rel="shortcut icon" href="../favicon.ico")
+	
+block content
+
+	- package					="Core";
+	- paymentMonthly	="3 payments of $199";
+	- paymentOneTime	="1 payment of $497 <em>(save $100)</em>";
+
+	include ../_includes/join
+	include ../_includes/review-group-1
+	include ../_includes/foot-mini

@@ -1,0 +1,58 @@
+.sn-header-interior
+	padding: 2rem 0 8rem
+	width: 100%
+
+	.sn-back
+		display: grid
+		grid-template-columns: auto auto
+		color: $c-red
+		align-items: center
+		justify-content: left
+
+		&:hover
+			.sn-logo
+				color: $c-light
+				+easeall
+
+			.sn-arrow
+				transform: scaleX(-1) translateX(8px)
+				+easeall
+
+				.arrow
+					transform: translateX(0px)
+					+easeall
+
+				.line
+					transform: scaleX(.85) translateX(2px)
+
+		+bp-xlarge
+			position: relative
+			left: -1.75rem
+
+	.sn-logo
+		color: $c-grey-aa-large
+		width: 40px
+		height: 40px
+		+easeall
+
+		svg
+			width: 100%
+			height: auto
+
+	.sn-arrow
+		// border: 1px solid red
+		width: 20px
+		transform: scaleX(-1) translateX(-2px)
+		+easeall
+
+		svg
+			width: 100%
+			// border: 1px solid blue
+
+		.arrow
+			transform: translateX(-2px)
+			+easeall
+
+		.line
+			transform: scaleX(.75) translateX(4px)
+			+easeall

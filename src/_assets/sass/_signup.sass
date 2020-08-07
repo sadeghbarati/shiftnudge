@@ -1,0 +1,116 @@
+.sn-signup-grid
+	display: grid
+	grid-template-columns: 1fr
+	grid-gap: 8rem
+
+	p.callout
+		padding-bottom: 2rem
+
+	+bp-large
+		grid-template-columns: 1fr 1fr
+
+	.sn-signup-panel
+		padding-top: 1rem
+
+		+bp-medium
+			padding-top: 5rem
+
+		svg
+			width: 32px
+			height: auto
+			margin-bottom: 1rem
+
+	.mds-message
+		display: grid
+		grid-template-columns: 80px auto
+		align-items: center
+		padding: 1rem 0
+
+		p
+			color: $c-light
+			font-size: 1rem
+			line-height: 130%
+			background: $c-dark-accent
+			padding: 1rem 1.5rem
+			border-radius: 20px
+			+font-weight-medium
+			max-width: 18rem
+
+	.mds-avatar
+		width: 60px
+
+	.sn-signup-panel
+		border-radius: 20px
+		padding: 4rem 4rem 2rem
+		text-align: center
+		+easeall
+
+		&.sn-pro:hover
+			box-shadow: inset 0 0 0 6px $c-dark-accent
+
+		&.sn-core:hover
+			background: $c-dark-accent
+
+		h6
+			text-transform: uppercase
+			padding-bottom: 2rem
+			+font-weight-black
+
+		.payment-options
+			padding: 3rem 0
+
+		a.payment-option
+			display: block
+			padding: 1.25rem 3rem
+			font-size: 1rem
+			+font-weight-medium
+			border-radius: 12px
+			text-decoration: none
+			margin-bottom: .5rem
+			+easeall
+
+			em
+				color: $c-grey-aa
+
+			&.is-selected
+				box-shadow: inset 0 0 0 4px $c-blue
+
+
+		&.sn-pro a.payment-option
+			background: $c-dark-accent
+
+			&:hover
+				background: lighten($c-dark-accent, 2)
+				+easeall
+
+				&.is-selected:hover
+					background: $c-dark-accent
+
+		&.sn-core a.payment-option
+			background: $c-dark
+
+			&:hover
+				background: darken($c-dark, 2)
+				+easeall
+
+				&.is-selected:hover
+					background: $c-dark
+
+		&.sn-core .sn-cta
+			color: $c-dark
+			background: $c-teal	
+			box-shadow: 0 0 0 0 $c-teal
+
+			&:hover
+				box-shadow: 0 0 0 4px $c-teal
+				+easeall
+
+		.countdown
+			color: $c-grey-aa
+			padding: 1rem 0 .5rem
+			font-size: 1rem
+
+		.legal
+			padding-top: 5rem
+			font-size: .75rem
+			color: $c-grey-aa

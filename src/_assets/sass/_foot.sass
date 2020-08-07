@@ -1,12 +1,20 @@
 .sn-footer
 	padding: 4rem 0
 
+	a
+		box-shadow: 0 2px 0 0 rgba($c-white, .1)
+		+easeall
+
+		&:hover
+			color: $c-white
+			box-shadow: 0 2px 0 0 rgba($c-white, .2)
+			+easeall
+
 	.mds-signoff
 		display: grid
 		grid-template-columns: 80px 1fr
 		padding-bottom: 3rem
 		color: $c-light
-		// border: 1px solid red
 		max-width: 200px
 		+easeall
 
@@ -75,3 +83,6 @@
 
 	.sn-legal
 		padding: 6rem 0 0
+
+.sn-foot-mini
+	padding-top: 6rem
