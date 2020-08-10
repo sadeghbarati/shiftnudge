@@ -49,14 +49,6 @@
 		"oAP": "/build/_assets/fonts/TTFirsNeue-Black.woff2",
 		"oF": 0
 		},
-	"/src/_assets/fonts/TTFirsNeue-Black.woff2 2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/_assets/fonts/TTFirsNeue-Black.woff2 2",
-		"oF": 0
-		},
 	"/src/_assets/fonts/TTFirsNeue-BlackItalic.eot": {
 		"cB": 0,
 		"ft": 8192,
@@ -1866,6 +1858,19 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/src/_assets/sass/_team.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_assets/sass/_team.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/src/_assets/sass/_typography.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -2198,6 +2203,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/src/_includes/product-row.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/product-row.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/src/_includes/quote.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -2417,7 +2432,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-red",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 618525557.72339404
+	"lastBuiltDate": 618778100.78909194
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

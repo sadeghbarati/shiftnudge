@@ -9,11 +9,66 @@ block head
 	
 block content
 
-	.sn-wrapper.sn-interior
+	.sn-wrapper.sn-interior.sn-team
 		include ../_includes/header-interior
 		.sn-interior-content
 			h1 Level-up your entire team
-			p.callout It takes multiple 6-figure salaries to attract top design talent to your company. Level up your existing team for a fraction of the cost.
+			p.callout It takes multiple 6-figure salaries to attract top design talent to your company. Level up your current team for a fraction of the cost.
 			
-			.sn-team-table
-				
+			.sn-team-grid
+				.sn-product-headers
+					.product-package
+						h5 Package
+					.product-seats
+						h5 Seats
+					.product-discount
+						h5 Discount
+					.product-per
+						h5 Per Seat
+					.product-price
+						h5 Price
+					//- .product-cta
+					//- 	h5 Buy
+
+				//- 5 --------------------------------------------------
+				- productNum		="5";
+				- productPer		="947.15";
+				- productPrice	="4,737.35";
+				include ../_includes/product-row
+
+				//- 10 --------------------------------------------------
+				- productNum		="10";
+				- productPer		="897.30";
+				- productPrice	="8,973.00";
+				include ../_includes/product-row
+
+				//- 15 --------------------------------------------------
+				- productNum		="15";
+				- productPer		="847.45";
+				- productPrice	="12,711.75";
+				include ../_includes/product-row
+
+				//- 20 --------------------------------------------------
+				- productNum		="20";
+				- productPer		="847.45";
+				- productPrice	="15,952.00";
+				include ../_includes/product-row
+
+				//- 25 --------------------------------------------------
+				- productNum		="25";
+				- productPer		="747.75";
+				- productPrice	="18,693.75";
+				include ../_includes/product-row
+
+		.sn-team-faq
+			.sn-mini-faq
+				h6 What's Included?
+				p Each of your team members will have full access to everything Shift Nudge has to offer—all 8 modules, 84 lessons, and over 30+ hours of design training. Plus they’ll each have access to the Critique Vault with 600+ design homework review videos produced by MDS.
+				p Once you purchase the team package, we'll connect via email for a list of team members to invite to the Shift Nudge Notion workspace.
+				p Due to the nature of these large team packages, payment plans and refunds are not available.
+			
+			.sn-mini-faq
+				h6 Questions or Concerns?
+				p If you have any questions about these plans, need more time to get budget approval, or would like to use alternate payment methods, please reach out to me directly at mds@hey.com with the subject line [Shift Nudge Team] and I’ll get back to you as fast as humanly possible.
+
+		include ../_includes/foot-mini
