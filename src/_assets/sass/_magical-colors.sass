@@ -13,12 +13,16 @@ $colors: $c-teal, $c-yellow, $c-orange, $c-red, $c-pink, $c-purple, $c-blue, $c-
 	.sn-module:nth-child(#{length($colors)}n+#{$i}) .sn-module-icon
 		color: nth($colors, $i)
 
-	.sn-module:nth-child(#{length($colors)}n+#{$i}):hover .sn-module-icon-core
-		background: nth($colors, $i)
-		+easeall
+		.icon-bg
+			fill: nth($colors, $i)
+			+easeall
 
-	.sn-module:nth-child(#{length($colors)}n+#{$i}):hover .sn-module-icon-pro
-		box-shadow: inset 0 0 0 6px nth($colors, $i)
+	// .sn-module:nth-child(#{length($colors)}n+#{$i}):hover .sn-module-icon-core
+	// 	background: nth($colors, $i)
+	// 	+easeall
+
+	// .sn-module:nth-child(#{length($colors)}n+#{$i}):hover .sn-module-icon-pro
+	// 	box-shadow: inset 0 0 0 6px nth($colors, $i)
 
 	.sn-module-overview:nth-child(#{length($colors)}n+#{$i}) .sn-module-icon,	
 	.sn-module-overview:nth-child(#{length($colors)}n+#{$i}) .sn-module-desc h6,

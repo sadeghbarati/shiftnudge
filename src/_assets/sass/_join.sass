@@ -1,19 +1,13 @@
-.sn-signup-grid
+.sn-join-grid
 	display: grid
 	grid-template-columns: 1fr
 	grid-gap: 8rem
 
 	p.callout
-		padding-bottom: 2rem
+		padding-bottom: 2.5rem
 
 	+bp-large
 		grid-template-columns: 1fr 1fr
-
-	.sn-signup-panel
-		padding-top: 1rem
-
-		+bp-medium
-			padding-top: 5rem
 
 		svg
 			width: 32px
@@ -25,9 +19,10 @@
 		grid-template-columns: 80px auto
 		align-items: center
 		padding: 1rem 0
+		font-style: italic
 
 		p
-			color: $c-light
+			color: $c-grey-aa
 			font-size: 1rem
 			line-height: 130%
 			background: $c-dark-accent
@@ -39,11 +34,13 @@
 	.mds-avatar
 		width: 60px
 
-	.sn-signup-panel
+	.sn-join-panel
 		border-radius: 20px
-		padding: 4rem 4rem 2rem
 		text-align: center
 		+easeall
+
+		+bp-medium
+			padding: 5rem 4rem 2rem
 
 		&.sn-pro:hover
 			box-shadow: inset 0 0 0 6px $c-dark-accent

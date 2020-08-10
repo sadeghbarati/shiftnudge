@@ -1684,6 +1684,19 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/src/_assets/sass/_join.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_assets/sass/_join.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/src/_assets/sass/_layout.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -1840,19 +1853,6 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/src/_assets/sass/_signup.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/_assets/sass/_signup.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
 	"/src/_assets/sass/_table.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -1933,7 +1933,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/_includes/critique-vault.html",
 		"oF": 0,
 		"oS": 0
@@ -1953,7 +1953,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/_includes/final-cta.html",
 		"oF": 0,
 		"oS": 0
@@ -2003,7 +2003,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/_includes/hero.html",
 		"oF": 0,
 		"oS": 0
@@ -2013,7 +2013,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/_includes/how.html",
 		"oF": 0,
 		"oS": 0
@@ -2073,7 +2073,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/_includes/mds.html",
 		"oF": 0,
 		"oS": 0
@@ -2173,7 +2173,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/_includes/overview.html",
 		"oF": 0,
 		"oS": 0
@@ -2183,7 +2183,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/_includes/pricing-faqs.html",
 		"oF": 0,
 		"oS": 0
@@ -2193,7 +2193,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/_includes/pricing.html",
 		"oF": 0,
 		"oS": 0
@@ -2223,7 +2223,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/_includes/review-group-2.html",
 		"oF": 0,
 		"oS": 0
@@ -2233,7 +2233,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/_includes/right-for-me.html",
 		"oF": 0,
 		"oS": 0
@@ -2373,6 +2373,16 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/styles/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/team/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/team/index.html",
 		"oF": 0,
 		"oS": 0
 		},
