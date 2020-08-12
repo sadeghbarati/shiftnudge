@@ -1,0 +1,56 @@
+header
+	background: rgba($c-dark, .9)
+	width: 100%
+	position: fixed
+	top: 0 
+	left: 0 
+	right: 0 
+	z-index: 500
+	backdrop-filter: blur(24px)
+
+	.sn-header
+		display: grid
+		grid-template-columns: 1fr .25fr
+		padding: 1rem 0
+		align-items: center
+
+		.sn-closes
+			display: grid
+			grid-template-columns: 60px 1fr
+			align-items: center
+			transform: translateX(-3.625rem)
+			+easeall
+
+			.sn-logo
+				width: 48px
+				opacity: 0
+				+easeall
+				svg
+					width: 100%	
+			p
+				padding: 0
+
+		.sn-join
+			justify-self: end
+			a
+				color: $c-dark
+				+font-weight-bold
+				display: block
+				background: $c-red
+				text-align: center
+				padding: .5rem .75rem
+				border-radius: 1.5rem
+				box-shadow: 0 0 0 0 $c-red
+				+easeall
+
+				&:hover
+					box-shadow: 0 0 0 2px $c-red
+					+easeall
+
+.sn-header-scrolled
+	.sn-closes
+		transform: translateX(-.5rem) !important
+		+easeall
+	.sn-logo
+		opacity: 1 !important
+		+easeall

@@ -33,7 +33,7 @@
 
     &:hover
       h2
-        color: $c-dark-accent
+        color: lighten($c-dark-accent, 1.5)
         +easeall
       h6
         color: $c-light
@@ -45,7 +45,7 @@
       display: inline
       color: $c-dark
       -webkit-text-stroke-width: 2px
-      -webkit-text-stroke-color: $c-dark-accent
+      -webkit-text-stroke-color: lighten($c-dark-accent, 1.5)
       font-variant: tabular-nums
       position: absolute
       z-index: 0

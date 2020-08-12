@@ -39,9 +39,21 @@ $(document).ready(function() {
 
 	console.log("Thanks for popping open the inspector.\nI hand-coded everything myself so if \nyou see something wrong, let me know!\n\nA DM or public reply is perfectly acceptable. 👍\n\n—MDS\nhttp://twitter.com/mds\n\n");
 
+	// show / hide header bg on scroll
+  var h = $(".sn-header");
+  var pos = h.position();
+  $(window).scroll(function() {
+    var windowpos = $(window).scrollTop();
+    if (windowpos >= pos.top & windowpos >=180) {
+      h.addClass("sn-header-scrolled");
+    } else {
+      h.removeClass("sn-header-scrolled");
+    }
+  });
+
 	// countdown
-	$('.sn-countdown').countdown('2020/04/9', function(event) {
-		$(this).html(event.strftime('%Dd %Hh %Mm %Ss'));
+	$('.sn-countdown').countdown('2020/09/01', function(event) {
+		$(this).html(event.strftime('Closes in <em>%Dd %Hh %Mm %Ss</em>'));
 	});
 
 	// make sure things are loaded
@@ -82,6 +94,26 @@ $(document).ready(function() {
 		} else {
 			$(".sn-cta").attr("href", "#onetime")
 		}
+
+		// copy text function
+		function copyText() {
+		  /* Get the text field */
+		  var copyText = $(".is-copy-able");
+
+		  /* Select the text field */
+		  copyText.select();
+		  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+		  /* Copy the text inside the text field */
+		  document.execCommand("copy");
+
+		  /* Alert the copied text */
+		  alert("Copied the text: " + copyText.value);
+		}
+
+		$('.is-copy-able').on( "click", function(event) {
+			copyText();
+		});
 		
 	});
 

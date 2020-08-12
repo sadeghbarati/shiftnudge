@@ -1520,6 +1520,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/src/_assets/sass/_countdown.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_assets/sass/_countdown.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/src/_assets/sass/_critique-vault.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -1624,6 +1637,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/src/_assets/sass/_header.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_assets/sass/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/src/_assets/sass/_hero.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -1711,6 +1737,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_logo.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_assets/sass/_long-form.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_assets/sass/_long-form.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1938,7 +1977,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/critique-vault.html",
 		"oF": 0,
 		"oS": 0
@@ -1958,7 +1997,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/final-cta.html",
 		"oF": 0,
 		"oS": 0
@@ -2003,12 +2042,22 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/src/_includes/header.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/header.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/src/_includes/hero.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/hero.html",
 		"oF": 0,
 		"oS": 0
@@ -2018,7 +2067,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/how.html",
 		"oF": 0,
 		"oS": 0
@@ -2078,7 +2127,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/mds.html",
 		"oF": 0,
 		"oS": 0
@@ -2178,7 +2227,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/overview.html",
 		"oF": 0,
 		"oS": 0
@@ -2188,7 +2237,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/pricing-faqs.html",
 		"oF": 0,
 		"oS": 0
@@ -2198,7 +2247,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/pricing.html",
 		"oF": 0,
 		"oS": 0
@@ -2238,7 +2287,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/review-group-2.html",
 		"oF": 0,
 		"oS": 0
@@ -2248,7 +2297,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/right-for-me.html",
 		"oF": 0,
 		"oS": 0
