@@ -14,18 +14,29 @@
 		grid-gap: 20px
 
 		+bp-medium
-			grid-template-columns: .25fr 1fr .75fr
-			grid-gap: 60px
-
-		+bp-xlarge
-			grid-template-columns: .25fr 1fr 1fr
+			grid-template-columns: repeat(12, 1fr)
 
 		img
 			width: 120px
 			height: 120px
+			grid-column: span 2
+
+		p.callout
+			grid-column: span 6
+
+		p
+			grid-column: span 4
 
 	.sn-mds-gallery
 		padding-top: 5rem
+
+		// so the grid looks nice and clean
+		.sn-outlier
+			display: none
+			+bp-medium
+				display: block
+			+bp-large
+				display: none
 
 		.sn-mds-gallery-image
 			position: relative

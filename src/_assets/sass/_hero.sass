@@ -1,5 +1,15 @@
 .sn-hero
 	padding-top: 16rem
+	font-size: 2rem
+
+	// +bp-small
+	// 	font-size: 2.75rem
+
+	+bp-medium
+		font-size: 3.5rem
+
+	+bp-large
+		font-size: 4.5rem
 
 	.sn-title
 		position: relative
@@ -7,24 +17,50 @@
 		h1
 			float: left
 			display: inline
-			margin-right: 1rem
-			padding-left: 5rem
+			margin-right: .6rem
+			padding-left: 1.8rem
+			font-size: 1em
+			+easeall
+
+			+bp-medium
+				padding-left: 4rem
+
+			+bp-large
+				margin-right: 1rem
+				padding-left: 5rem
+				+easeall
 
 			+bp-xlarge
 				padding-left: 0
 
 	.sn-logo
 		position: absolute
-		top: -.9rem
-		left: -.25rem
+		top: -.85em
+		left: -.1em
+		width: 1em
+		height: auto
 		+easeall
+
+		+bp-medium
+			top: -.35em
+			left: -.1em
+
+		+bp-large
+			top: -.15em
+			left: -.1em
+			+easeall
+
 		+bp-xlarge
 			transform: translateX(-5rem)
 			+easeall
 
+		svg
+			width: 100%
+
 	p.xlarge
 		max-width: 100%
 		padding-bottom: 0rem
+		font-size: 1em
 
 		span
 			display: none

@@ -19,16 +19,31 @@ header
 			grid-template-columns: 60px 1fr
 			align-items: center
 			transform: translateX(-3.625rem)
+			width: 130% // a little hack because it collides with the CTA at small sizes
 			+easeall
+
+			+bp-medium
+				width: auto
 
 			.sn-logo
 				width: 48px
 				opacity: 0
+				transform: translate(-0.75rem, 0)
 				+easeall
+
+				+bp-xlarge
+					transform: translate(0rem, .75rem)
+
 				svg
 					width: 100%	
 			p
 				padding: 0
+				font-size: 1rem
+				+easeall
+
+				+bp-medium
+					font-size: 1.125rem
+					+easeall
 
 		.sn-join
 			justify-self: end
@@ -41,16 +56,45 @@ header
 				padding: .5rem .75rem
 				border-radius: 1.5rem
 				box-shadow: 0 0 0 0 $c-red
+				font-size: .875rem
+				position: relative
+				z-index: 500
 				+easeall
 
 				&:hover
 					box-shadow: 0 0 0 2px $c-red
 					+easeall
 
+				+bp-medium
+					font-size: 1rem
+
 .sn-header-scrolled
-	.sn-closes
-		transform: translateX(-.5rem) !important
-		+easeall
-	.sn-logo
-		opacity: 1 !important
-		+easeall
+
+	+bp-xsmall
+		.sn-closes
+			transform: translateX(-.75rem) !important
+			+easeall
+		.sn-logo
+			opacity: 1 !important
+			transform: translate(.25rem, 0rem) !important
+			+easeall
+
+	+bp-xlarge
+		.sn-closes
+			transform: translateX(-3.625rem) !important
+			+easeall
+		.sn-logo
+			opacity: 1 !important
+			transform: translate(0, 0) !important
+			animation: logoscroll $animation-speed ease-in-out  infinite
+			+easeall
+
+			// @keyframes logoscroll
+			// 0%
+			// 	transform: translate(-0.75rem, .75rem) !important
+			// 40%
+			// 	transform: translate(-0.75rem, 0) !important
+			// 90%
+			// 	transform: translate(-0.75rem, 0) !important
+			// 100%
+			// 	transform: translate(0, 0) !important

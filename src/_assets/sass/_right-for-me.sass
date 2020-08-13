@@ -9,25 +9,23 @@
 		padding-bottom: 6rem
 
 	.sn-type-grid
-		display: grid
-		grid-template-columns: 1fr
-		grid-column-gap: 6rem
-		grid-row-gap: 4rem
-		padding-bottom: 6rem
+		// display: grid
+		// grid-template-columns: 1fr
+		// grid-column-gap: 6rem
+		// grid-row-gap: 4rem
+		// padding-bottom: 6rem
 
-		+bp-medium
-			grid-template-columns: 1fr 1fr
+		// +bp-medium
+		// 	grid-template-columns: 1fr 1fr
 
 	.sn-student-type
-		padding-left: 2.75rem
+		grid-column: span 4
 
 		.emoji
 			font-size: 1.75rem
-			display: inline-block
 			transform-origin: center left
-			text-align: center
-			position: relative
-			top: 4px
+			text-align: left
+			padding: 1rem 0 0
 			+easeall
 
 		&:hover .emoji
@@ -35,11 +33,11 @@
 			+easeall
 
 		h6 
-			text-indent: -1.3rem
+			// text-indent: -1.3rem
 			padding: 1rem 0 1rem
 
 		p
-			max-width: 24rem
+			max-width: 17rem
 
 	h3
 		padding: 1rem 0 2rem
