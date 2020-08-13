@@ -90,9 +90,11 @@ $(document).ready(function() {
 		$('.payment-option-one-time').toggleClass( "is-selected" );
 
 		if ($( ".payment-option-monthly" ).hasClass( "is-selected" )) {
-			$(".sn-cta").attr("href", "#monthly")
+			$(".sn-core .sn-cta").attr("href", "https://transactions.sendowl.com/subscriptions/15428/AB8F3CAF/purchase")
+			$(".sn-pro .sn-cta").attr("href", "https://transactions.sendowl.com/subscriptions/15427/526D9F28/purchase")
 		} else {
-			$(".sn-cta").attr("href", "#onetime")
+			$(".sn-core .sn-cta").attr("href", "https://transactions.sendowl.com/products/78343146/21A4DE94/purchase")
+			$(".sn-pro .sn-cta").attr("href", "https://transactions.sendowl.com/products/78343087/E3E6D25A/purchase")
 		}
 
 		// copy text function
