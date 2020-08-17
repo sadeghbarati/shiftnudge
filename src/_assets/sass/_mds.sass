@@ -1,5 +1,5 @@
 .sn-mds
-	padding-top: 8rem
+	padding: 8rem 0
 
 	h2
 		padding-top: 20px
@@ -20,13 +20,19 @@
 		img
 			width: 90px
 			height: 90px
-			grid-column: span 2
+			grid-column: span 12
+			+bp-medium
+				grid-column: span 2
 
 		p.callout
-			grid-column: 3 / span 5
+			grid-column: span 12
+			+bp-medium
+				grid-column: 3 / span 5
 
 		p
-			grid-column: 9 / span 4
+			grid-column: span 12
+			+bp-medium
+				grid-column: 9 / span 4
 
 	.sn-mds-gallery
 		padding-top: 5rem

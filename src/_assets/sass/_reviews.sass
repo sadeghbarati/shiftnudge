@@ -2,22 +2,25 @@
 	margin: 20px
 
 .sn-quote-group
+	padding: 6rem 0
 	display: grid
 	grid-gap: 10px
-	grid-template-columns: repeat(auto-fill, minmax(440px,1fr))
+	grid-template-columns: repeat(auto-fill, minmax(320px,1fr))
 	grid-auto-rows: 20px
 	+font-weight-demibold
 
+	+bp-medium
+		grid-template-columns: repeat(auto-fill, minmax(440px,1fr))
+
 .sn-student-quote
-	padding: 2.75rem
+	padding: 0
 	+easeall
 
-	+bp-medium
-		padding: 5.5rem
-	
+	+bp-small
+		padding: 2.75rem
+
 	&:hover
-		background: $c-dark-accent
-		transform: scale(1.025)
+		
 		+easeall
 
 		p
@@ -30,6 +33,14 @@
 			img
 				mix-blend-mode: luminosity
 				+easeall
+
+	+bp-medium
+		padding: 5.5rem
+	
+		&:hover
+			transform: scale(1.025)
+			background: $c-dark-accent
+
 	p
 		color: $c-grey-aa-large
 		font-size: 1.5rem
@@ -51,8 +62,11 @@
 	.sn-student
 		display: grid
 		grid-template-columns: 120px 1fr
-		// padding-bottom: 3.325rem
-		padding-bottom: 6rem
+		padding-bottom: 3.325rem
+		
+
+		+bp-medium
+			padding-bottom: 6rem
 
 	.sn-student-avatar
 		border-radius: 50%
@@ -80,7 +94,8 @@
 
 		h4
 			color: $c-white
-			line-height: 150%
+			line-height: 100%
+			padding-bottom: .125rem
 
 		h5
 			color: $c-grey-aa

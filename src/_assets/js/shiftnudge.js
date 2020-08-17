@@ -53,7 +53,7 @@ $(document).ready(function() {
 
 	// countdown
 	$('.sn-countdown').countdown('2020/09/08', function(event) {
-		$(this).html(event.strftime('Closes in <em>%Dd %Hh %Mm %Ss</em>'));
+		$(this).html(event.strftime('Closes in <span>%Dd %Hh %Mm %Ss</span>'));
 	});
 
 	// make sure things are loaded

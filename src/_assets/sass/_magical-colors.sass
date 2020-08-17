@@ -1,14 +1,24 @@
-// magical code that cycles through the brand colors in order
+r// magical code that cycles through the brand colors in order
 $colors: $c-teal, $c-yellow, $c-orange, $c-red, $c-pink, $c-purple, $c-blue, $c-lightblue
 
 @for $i from 1 through length($colors) 
 
-	.sn-student-quote:nth-child(#{length($colors)}n+#{$i}) p em
-		background: linear-gradient(180deg, rgba(nth($colors, $i), 0) 14%, rgba(nth($colors, $i), 1) 15%, rgba(nth($colors, $i), 1) 85%, rgba(nth($colors, $i), 0) 85%)		
+	.sn-student-quote:nth-child(#{length($colors)}n+#{$i}) 
 	
-	.sn-student-quote:nth-child(#{length($colors)}n+#{$i}):hover .sn-student-avatar
-		background: nth($colors, $i)
-		box-shadow: 0 0 0 8px nth($colors, $i)
+	.sn-student-quote:nth-child(#{length($colors)}n+#{$i})
+		$randomColor: nth($colors, $i)
+
+		p em
+			background: linear-gradient(180deg, rgba($randomColor, 0) 14%, rgba($randomColor, 1) 15%, rgba($randomColor, 1) 85%, rgba($randomColor, 0) 85%)		
+
+		&:hover
+			.sn-student-avatar
+				// background: nth($colors, $i)
+				// box-shadow: 0 0 0 8px nth($colors, $i)
+				background: $randomColor
+				box-shadow: 0 0 0 8px $randomColor
+
+		
 	
 	.sn-module:nth-child(#{length($colors)}n+#{$i}) .sn-module-icon
 		color: nth($colors, $i)

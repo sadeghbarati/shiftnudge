@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5
  +easeall
 
  +bp-medium
- 	font-size: 4.5rem
+ 	font-size: 5rem
  	+easeall
 
 h1
@@ -39,7 +39,7 @@ h3
 
 h4
 	color: $c-light
-	font-size: 1.5rem
+	font-size: 1.75rem
 	line-height: 75%
 	+font-weight-bold
 
@@ -66,8 +66,17 @@ p
 	font-size: 1.125rem
 	line-height: 160%
 	+font-weight-medium
-	max-width: 34rem
+	max-width: 38rem
 	padding-bottom: 2rem
+
+	+bp-medium
+		font-size: 1.25rem
+
+	em
+		font-style: italic
+		color: $c-red
+		padding: 0 .25rem
+		// background: $c-yellow
 
 p.callout
 	color: $c-light
@@ -92,7 +101,7 @@ ul, ol
 	@extend p
 
 ul.feature-list
-	margin-top: 0
+	margin: 0
 	+font-weight-demibold
 	li 
 		+easeall
@@ -119,13 +128,16 @@ ul.feature-list
 
 blockquote
 	position: relative
-	color: $c-red
-	// font-size: 1.125rem
+	color: $c-light
 	font-size: 1.25rem
-	+font-weight-demibold
+	+font-weight-medium
+	font-style: italic
 	padding-left: 2rem
 	padding-bottom: 2rem
 	
+	span
+		font-style: normal
+
 	svg
 		position: absolute
 		top: 0
@@ -136,3 +148,7 @@ figcaption
 	+font-weight-medium
 	line-height: 90%
 	color: $c-light
+
+.sn-red
+	color: $c-red !important
+	font-style: italic

@@ -5,20 +5,16 @@
 
 	.sn-desc
 		p.callout
-			grid-column: span 7
-		// display: grid
-		// grid-template-columns: 1fr
-		// grid-gap: 4rem
-
-		// +bp-medium
-		// 	grid-gap: 2rem
-		// 	grid-template-columns: 2fr 1fr
-
-		// p.callout
-		// 	max-width: 34rem
+			grid-column: span 12
+			
+			+bp-medium
+				grid-column: span 7
 			
 		ul.feature-list 
-			grid-column: 9 / span 3
+			grid-column: span 12
+
+			+bp-medium
+				grid-column: 9 / span 3
 
 			div
 				color: $c-red
@@ -27,18 +23,11 @@
 
 	.sn-meta
 		padding: 10rem 0 
-		// display: grid
-		// grid-template-columns: 1fr 1fr
-		// grid-column-gap: 
 		grid-row-gap: 4rem
 		font-variant: tabular-nums
 
-		// +bp-medium
-		// 	grid-template-columns: 1fr 1fr 1fr
-
 	.sn-meta-container
 		grid-column: span 4
-		// border: 1px solid red
 		h2
 			font-size: 3rem
 			color: $c-light
