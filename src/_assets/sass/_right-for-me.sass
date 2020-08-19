@@ -8,16 +8,6 @@
 		max-width: 805px
 		padding-bottom: 6rem
 
-	.sn-type-grid
-		// display: grid
-		// grid-template-columns: 1fr
-		// grid-column-gap: 6rem
-		// grid-row-gap: 4rem
-		// padding-bottom: 6rem
-
-		// +bp-medium
-		// 	grid-template-columns: 1fr 1fr
-
 	.sn-student-type
 		grid-column: span 4
 
@@ -37,7 +27,9 @@
 			padding: 1rem 0 1rem
 
 		p
-			max-width: 17rem
+			max-width: none
+			+bp-medium
+				max-width: 17rem
 
 	h3
 		padding: 1rem 0 2rem

@@ -1,0 +1,23 @@
+extends ../_includes/layout.pug
+
+block head
+	title Shift Nudge – Upgrade
+
+	block stylesandscripts
+	link(rel="stylesheet" type="text/css" href="../_assets/shiftnudge.css")
+	link(id="favicon" rel="shortcut icon" href="../favicon.ico")
+	
+block content
+
+	.sn-wrapper.sn-interior.sn-team
+		include ../_includes/header-interior
+		.sn-interior-content
+			h1 Upgrade
+			p.callout If I join Shift Nudge Core, can I later upgrade to Shift Nudge Pro?
+			p #[em Yes! The upgrade fee is $499]
+			p If you are currently on the Core payment plan, you will need to finish the remainder of your payments in addition to the one-time Pro upgrade fee.
+			p
+			a(href="#").sn-cta Upgrade
+			
+
+		include ../_includes/foot-mini

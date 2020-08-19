@@ -44,8 +44,8 @@ h4
 	+font-weight-bold
 
 h5
-	color: $c-grey-aa-large
-	font-size: 1.125rem
+	color: $c-grey-aa
+	font-size: 1rem
 	line-height: 75%
 	text-transform: uppercase
 	+font-weight-bold
@@ -125,6 +125,33 @@ ul.feature-list
 			color: $c-light
 			div
 				transform: scale(1.5)
+
+ul.sn-work-yes li,
+ul.sn-work-no li
+	list-style-type: none
+	+easeall
+
+	&:before
+		display: inline-block
+		width: 1.75rem 
+		margin-left: -1.8rem
+		+easeall
+
+	&:hover
+		color: $c-light
+		+easeall
+		&:before
+			transform: scale(1.25)
+			+easeall
+
+ul.sn-work-yes li:before
+	content: "✓" 
+	color: $c-teal
+
+ul.sn-work-no li:before
+	content: "✕" 
+	color: $c-red
+
 
 blockquote
 	position: relative
