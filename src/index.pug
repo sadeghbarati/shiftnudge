@@ -7,25 +7,20 @@ block content
 	include _includes/header
 	include _includes/hero
 	include _includes/review-group-1
-	//-intro video
-	.sn-wrapper.sn-video
-		h5 About the Course
-		.sn-video-wrap
-			iframe(src="https://player.vimeo.com/video/400386046" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen)
+	//- ------------------------------
+	- vidTitle= "About the Course";
+	- vidID= "400386046";
+	include _includes/video
+	//- ------------------------------
 	include _includes/overview
 	include _includes/modules
-	//-walkthrough video
-	.sn-wrapper.sn-video
-		h5 Course Walkthrough
-		.sn-video-wrap
-			iframe(src="https://player.vimeo.com/video/400386046" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen)
+	//- ------------------------------
+	- vidTitle= "Course Walkthrough";
+	- vidID= "400386046";
+	include _includes/video
+	//- ------------------------------
 	include _includes/review-group-2
 	include _includes/mds
-	//-my story video
-	//- .sn-wrapper.sn-video
-	//- 	h5 My Story
-	//- 	.sn-video-wrap
-	//- 		iframe(src="https://player.vimeo.com/video/400386046" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen)
 	include _includes/review-group-3
 	include _includes/how
 	include _includes/right-for-me
@@ -33,13 +28,11 @@ block content
 	include _includes/faqs
 	include _includes/review-group-5
 	include _includes/guarantee
-
-	//-guarantee video
-	.sn-wrapper.sn-video
-		h5 Money-back Guarantee
-		.sn-video-wrap
-			iframe(src="https://player.vimeo.com/video/400386046" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen)
-
+	//- ------------------------------
+		- vidTitle= "Money-back Guarantee";
+		- vidID= "400386046";
+		include _includes/video
+		//- ------------------------------
 	include _includes/pricing
 	include _includes/pricing-faqs
 	include _includes/review-group-6

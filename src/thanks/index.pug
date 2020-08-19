@@ -1,36 +1,22 @@
 extends ../_includes/layout.pug
 
 block head
-	title Shift Nudge – Thanks!
+	title Shift Nudge – FAQs
 
 	block stylesandscripts
 	link(rel="stylesheet" type="text/css" href="../_assets/shiftnudge.css")
 	link(id="favicon" rel="shortcut icon" href="../favicon.ico")
 	
 block content
-	.sn-wrap
-		.sn-body
-			h1 Thanks for joining!
-			
-			p Once you're payment is fully processed you'll receive the following emails:
 
-			ul
-				li Receipt Email <em>(from SendOwl)</em>
-				li Order Email <em>(from SendOwl)</em>
-				li Slack Invitation Email <em>(Automated from ConvertKit)</em>
-				li Invitation to join Shift Nudge on Notion <em>(Manually from me)</em>
+	.sn-wrapper.sn-interior
+		include ../_includes/header-interior
+		.sn-interior-content
+			h1 Confirmed!
+			p Now you're officially on the Shift Nudge list. You'll be the first to know when the course is ready for enrollment. Check your inbox for the free lesson.</em>
 
-			p Remember, a beta is kind of like a New York City hotel. The view will be nice, but there will be bugs.
-			p The SendOwl order email, for example, will have a link that says "access your order here" and it will link you back to this very page. This is not ideal, but a necessary kink while I work out other more important things, like finalizing the course. =)
-			p If you already have a Notion account under a different email than you used for purchase, just let me know via Slack or email and I will happily update it for you.
-
-			h2 Support
-			p If you did not recieve all of those emails or have any other issues at all please email me <code>matt@mds.is</code> and I will take care of you as fast as humanly possible!
-			p Your pal,
-
-
-			.sn-instructor-tag
-				img(src='../_assets/img/mds.png' alt='mds')
-				h4 —<a href="https://twitter.com/mds"/>MDS</a>
+			.sn-cta-group
+				div
+					a.sn-cta-primary(href="https://twitter.com/intent/tweet?text=Just+signed+up+to+get+notified+when+@shiftnudge+launches.+New+interface+design+course+from+@mds.+🎉+https://shiftnudge.com") Tweet about it
 
 			include ../_includes/foot.pug

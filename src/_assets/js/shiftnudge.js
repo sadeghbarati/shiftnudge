@@ -96,26 +96,6 @@ $(document).ready(function() {
 			$(".sn-core .sn-cta").attr("href", "https://transactions.sendowl.com/products/78343146/21A4DE94/purchase")
 			$(".sn-pro .sn-cta").attr("href", "https://transactions.sendowl.com/products/78343087/E3E6D25A/purchase")
 		}
-
-		// copy text function
-		function copyText() {
-		  /* Get the text field */
-		  var copyText = $(".is-copy-able");
-
-		  /* Select the text field */
-		  copyText.select();
-		  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
-
-		  /* Copy the text inside the text field */
-		  document.execCommand("copy");
-
-		  /* Alert the copied text */
-		  alert("Copied the text: " + copyText.value);
-		}
-
-		$('.is-copy-able').on( "click", function(event) {
-			copyText();
-		});
 		
 	});
 
