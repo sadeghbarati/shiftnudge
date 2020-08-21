@@ -44,7 +44,7 @@ $(document).ready(function() {
   var pos = h.position();
   $(window).scroll(function() {
     var windowpos = $(window).scrollTop();
-    if (windowpos >= pos.top & windowpos >=200) {
+    if (windowpos >= pos.top & windowpos >=180) {
       h.addClass("sn-header-scrolled");
     } else {
       h.removeClass("sn-header-scrolled");
