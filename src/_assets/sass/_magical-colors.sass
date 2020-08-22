@@ -20,6 +20,9 @@ $colors: $c-teal, $c-yellow, $c-orange, $c-red, $c-pink, $c-purple, $c-blue, $c-
 			fill: $randomColor
 			+easeall
 
+	.sn-meta .sn-students .sn-student:nth-child(#{length($colors)}n+#{$i})
+		background: $randomColor
+
 	.sn-module-overview:nth-child(#{length($colors)}n+#{$i}) .sn-module-icon,	
 	.sn-module-overview:nth-child(#{length($colors)}n+#{$i}) .sn-module-desc h6,
 	.sn-module-overview:nth-child(#{length($colors)}n+#{$i}) .sn-module-desc blockquote
