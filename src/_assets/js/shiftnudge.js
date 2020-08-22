@@ -3,35 +3,7 @@
 // @codekit-prepend 'vendor/jquery.countdown.min.js'
 
 
-// grid for review page
-function resizeGridItem(item){
-	grid = document.getElementsByClassName("grid")[0];
-	rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
-	rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
-	rowSpan = Math.ceil((item.querySelector('.content').getBoundingClientRect().height+rowGap)/(rowHeight+rowGap));
-	item.style.gridRowEnd = "span "+rowSpan;
-}
 
-function resizeAllGridItems(){
-	allItems = document.getElementsByClassName("item");
-	for(x=0;x<allItems.length;x++){
-	  resizeGridItem(allItems[x]);
-	}
-}
-
-window.onload = resizeAllGridItems();
-
-window.addEventListener("resize", resizeAllGridItems);
-
-allItems = document.getElementsByClassName("item");
-	for(x=0;x<allItems.length;x++){
-	imagesLoaded( allItems[x], resizeInstance);
-}
-
-function resizeInstance(instance){
-	item = instance.elements[0];
-	resizeGridItem(item);
-}
 
 
 // jquery stuff
@@ -69,6 +41,36 @@ $(document).ready(function() {
 	$(".formkit-field input").on('focus blur', function(){
 		$(this).parent().parent().toggleClass('is_focused');
 	})
+
+	// grid for review page
+	function resizeGridItem(item){
+		grid = document.getElementsByClassName("grid")[0];
+		rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
+		rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
+		rowSpan = Math.ceil((item.querySelector('.content').getBoundingClientRect().height+rowGap)/(rowHeight+rowGap));
+		item.style.gridRowEnd = "span "+rowSpan;
+	}
+
+	function resizeAllGridItems(){
+		allItems = document.getElementsByClassName("item");
+		for(x=0;x<allItems.length;x++){
+		  resizeGridItem(allItems[x]);
+		}
+	}
+
+	window.onload = resizeAllGridItems();
+
+	window.addEventListener("resize", resizeAllGridItems);
+
+	allItems = document.getElementsByClassName("item");
+		for(x=0;x<allItems.length;x++){
+		imagesLoaded( allItems[x], resizeInstance);
+	}
+
+	function resizeInstance(instance){
+		item = instance.elements[0];
+		resizeGridItem(item);
+	}
 
 	// dynamic year in footer
 	var now = new Date();
