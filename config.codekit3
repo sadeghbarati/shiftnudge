@@ -7,7 +7,7 @@
 		"uuidString": "349C96E3-CB2D-4330-BC16-334DB896BD2B"
 		}
 	],
-"creatorBuild": "32186",
+"creatorBuild": "31934",
 "files": {
 	"/build": {
 		"ft": 65536,
@@ -1439,599 +1439,599 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_animation/_animate-color.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_animation/_animate-elements.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_animation/_animate-elements.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_animation/_animate-imagery.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_animation/_animate-imagery.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_animation/_animate-layout.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_animation/_animate-layout.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_animation/_animate-start.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_animation/_animate-start.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_animation/_animate-style.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_animation/_animate-style.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_animation/_animate-tactics.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_animation/_animate-tactics.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_animation/_animate-typography.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_animation/_animate-typography.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_code.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_code.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_core-pro.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_core-pro.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_countdown.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_countdown.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_critique-vault.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_critique-vault.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_cta.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_cta.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_faqs.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_faqs.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_final-cta.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_final-cta.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_fonts.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_fonts.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_foot.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_foot.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_form.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_form.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_global.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_global.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_header-interior.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_header-interior.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_header.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_header.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_hero.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_hero.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_how.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_how.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_hr.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_hr.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_interior.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_interior.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_join.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_join.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_layout.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_layout.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_logo.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_logo.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_long-form.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_long-form.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_magical-colors.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_magical-colors.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_mds.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_mds.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_mixins.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_mixins.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_modules.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_modules.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_overview.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_overview.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_pricing-faqs.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_pricing-faqs.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_pricing.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_pricing.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_reset.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_reset.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_reviews.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_reviews.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_right-for-me.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_right-for-me.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_table.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_table.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_team.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_team.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_typography.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_typography.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_variables.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_variables.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_video.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_video.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/_woohoo.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_woohoo.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_assets/sass/screen.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/build/_assets/shiftnudge.css",
 		"oF": 2,
 		"oS": 3,
-		"sct": 1
+		"uL": 1
 		},
 	"/src/_includes/amplify.pug": {
 		"cB": 0,
@@ -2621,6 +2621,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/src/refunds/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/refunds/index.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/src/reviews/index.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -2648,6 +2658,16 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/team/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/terms/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/terms/index.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -3232,10 +3252,6 @@
 			"active": 0,
 			"optionString": ""
 			},
-		"default-case-last": {
-			"active": 0,
-			"optionString": ""
-			},
 		"default-param-last": {
 			"active": 0,
 			"optionString": ""
@@ -3291,10 +3307,6 @@
 		"global-require": {
 			"active": 0,
 			"optionString": ""
-			},
-		"grouped-accessor-pairs": {
-			"active": 0,
-			"optionString": "'anyOrder'"
 			},
 		"guard-for-in": {
 			"active": 0,
@@ -3472,10 +3484,6 @@
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
-		"no-constructor-return": {
-			"active": 0,
-			"optionString": ""
-			},
 		"no-continue": {
 			"active": 0,
 			"optionString": ""
@@ -3501,10 +3509,6 @@
 			"optionString": ""
 			},
 		"no-dupe-class-members": {
-			"active": 1,
-			"optionString": ""
-			},
-		"no-dupe-else-if": {
 			"active": 1,
 			"optionString": ""
 			},
@@ -3648,10 +3652,6 @@
 			"active": 0,
 			"optionString": ""
 			},
-		"no-loss-of-precision": {
-			"active": 0,
-			"optionString": ""
-			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
@@ -3768,10 +3768,6 @@
 			"active": 1,
 			"optionString": ""
 			},
-		"no-restricted-exports": {
-			"active": 0,
-			"optionString": "{'restrictedNamedExports': []}"
-			},
 		"no-restricted-globals": {
 			"active": 0,
 			"optionString": "'event', 'fdescribe'"
@@ -3814,10 +3810,6 @@
 			},
 		"no-sequences": {
 			"active": 0,
-			"optionString": ""
-			},
-		"no-setter-return": {
-			"active": 1,
 			"optionString": ""
 			},
 		"no-shadow": {
@@ -3915,10 +3907,6 @@
 		"no-use-before-define": {
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
-			},
-		"no-useless-backreference": {
-			"active": 0,
-			"optionString": ""
 			},
 		"no-useless-call": {
 			"active": 0,
@@ -4027,10 +4015,6 @@
 		"prefer-destructuring": {
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
-			},
-		"prefer-exponentiation-operator": {
-			"active": 0,
-			"optionString": ""
 			},
 		"prefer-named-capture-group": {
 			"active": 0,
@@ -4728,13 +4712,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
-		"compilerType": 1,
 		"createSourceMap": 0,
+		"debugStyle": 0,
 		"decimalPrecision": 10,
-		"emitCharset": 1,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0
+		"shouldRunBless": 0,
+		"useLibsass": 1
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,

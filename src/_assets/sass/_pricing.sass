@@ -9,6 +9,11 @@
 	h6
 		color: $c-grey-aa-large
 		text-align: center
+		line-height: 130%
+		max-width: 18rem
+		margin: auto
+		+bp-medium
+			max-width: none
 
 	h5
 		text-align: center
@@ -90,8 +95,11 @@
 		+font-weight-bold
 
 .sn-pro
+	grid-row: 1
 	box-shadow: inset 0 0 0 6px $c-dark-accent
 	+easeslow
+	+bp-medium
+		grid-column: 2
 	&:hover
 		box-shadow: inset 0 0 0 6px $c-red
 		+easeslow

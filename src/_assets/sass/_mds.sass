@@ -36,9 +36,13 @@
 				grid-column: 9 / span 4
 
 	.sn-mds-gallery
-		padding-top: 5rem
+		padding-top: 0rem
+		+bp-medium
+			padding-top: 5rem
 
-		// so the grid looks nice and clean
+
+
+		// remove photo for 2-wide so the grid looks nice and clean at all sizes
 		.sn-outlier
 			display: none
 			+bp-medium

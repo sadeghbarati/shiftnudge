@@ -5,7 +5,7 @@
 		padding: 0
 
 .sn-quote-group
-	padding: 2rem 0
+	padding: 2rem 0 0
 	display: grid
 	grid-gap: 10px
 	grid-template-columns: repeat(auto-fill, minmax(320px,1fr))
@@ -13,6 +13,7 @@
 	+font-weight-demibold
 
 	+bp-medium
+		padding: 2rem 0
 		grid-template-columns: repeat(auto-fill, minmax(440px,1fr))
 
 .sn-student-quote
@@ -21,6 +22,11 @@
 
 	+bp-small
 		padding: 2.75rem
+
+	.item
+		grid-row-end: span 8 !important
+		+bp-medium
+			grid-row-end: span 12
 
 	&:hover
 		
@@ -49,7 +55,7 @@
 		font-size: 1.5rem
 		line-height: 100%
 		display: inline-block
-		padding-bottom: 3rem
+		padding-bottom: 2rem
 		font-style: italic
 		+easeall
 
