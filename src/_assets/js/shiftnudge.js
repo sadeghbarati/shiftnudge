@@ -35,6 +35,40 @@ $(document).ready(function() {
 		$('.sn-module').toggleClass( "sn-lessons--showing" );
 	});
 
+
+
+
+	// emojis on hover for quotes
+	var emojis = [
+		"url('../_assets/img/emoji/clap.png'), auto",
+		"url('../_assets/img/emoji/heart.png'), auto",
+		"url('../_assets/img/emoji/raise.png'), auto",
+		"url('../_assets/img/emoji/rock.png'), auto",
+		"url('../_assets/img/emoji/smile.png'), auto",
+		"url('../_assets/img/emoji/thumbs.png'), auto",
+		"url('../_assets/img/emoji/strong.png'), auto",
+		"url('../_assets/img/emoji/peace.png'), auto",
+		"url('../_assets/img/emoji/fire.png'), auto",
+		"url('../_assets/img/emoji/pray.png'), auto",
+		"url('../_assets/img/emoji/boom.png'), auto",
+		"url('../_assets/img/emoji/pop.png'), auto",
+		"url('../_assets/img/emoji/key.png'), auto",
+		"url('../_assets/img/emoji/celebrate.png'), auto",
+		"url('../_assets/img/emoji/smile-soft.png'), auto",
+		"url('../_assets/img/emoji/heart-eyes.png'), auto",
+		"url('../_assets/img/emoji/tongue.png'), auto"
+	];
+
+	$('.sn-student-quote').mouseenter(function() {
+	    var randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
+	    $(this).css('cursor', randomEmoji);
+	});
+
+	$('.sn-student-quote').mouseleave(function() {
+	    $(this).css('cursor', '');
+	});
+
+
 	// $(".formkit-field input").on('focus blur', function(){
 	// 	$(this).parent().parent().toggleClass('is_focused');
 	// })

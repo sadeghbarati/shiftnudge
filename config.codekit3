@@ -729,6 +729,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/_assets/img/emoji/boom.png": {
+		"ft": 32768,
+		"iS": 2495,
+		"oA": 0,
+		"oAP": "/build/_assets/img/emoji/boom.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/emoji/celebrate.png": {
+		"ft": 32768,
+		"iS": 3718,
+		"oA": 0,
+		"oAP": "/build/_assets/img/emoji/celebrate.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/_assets/img/emoji/clap.png": {
 		"ft": 32768,
 		"iS": 3949,
@@ -737,6 +759,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/emoji/fire.png": {
+		"ft": 32768,
+		"iS": 2462,
+		"oA": 0,
+		"oAP": "/build/_assets/img/emoji/fire.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/emoji/heart-eyes.png": {
+		"ft": 32768,
+		"iS": 3027,
+		"oA": 0,
+		"oAP": "/build/_assets/img/emoji/heart-eyes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -751,6 +795,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/_assets/img/emoji/key.png": {
+		"ft": 32768,
+		"iS": 2232,
+		"oA": 0,
+		"oAP": "/build/_assets/img/emoji/key.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/emoji/peace.png": {
+		"ft": 32768,
+		"iS": 2238,
+		"oA": 0,
+		"oAP": "/build/_assets/img/emoji/peace.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/_assets/img/emoji/point.png": {
 		"ft": 32768,
 		"iS": 2570,
@@ -759,6 +825,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/emoji/pop.png": {
+		"ft": 32768,
+		"iS": 2230,
+		"oA": 0,
+		"oAP": "/build/_assets/img/emoji/pop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/emoji/pray.png": {
+		"ft": 32768,
+		"iS": 2162,
+		"oA": 0,
+		"oAP": "/build/_assets/img/emoji/pray.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -784,6 +872,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/_assets/img/emoji/smile-soft.png": {
+		"ft": 32768,
+		"iS": 2810,
+		"oA": 0,
+		"oAP": "/build/_assets/img/emoji/smile-soft.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/_assets/img/emoji/smile.png": {
 		"ft": 32768,
 		"iS": 3275,
@@ -792,6 +891,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/emoji/strong.png": {
+		"ft": 32768,
+		"iS": 2193,
+		"oA": 0,
+		"oAP": "/build/_assets/img/emoji/strong.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1682,6 +1792,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/src/_assets/sass/_guarantee.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_assets/sass/_guarantee.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/src/_assets/sass/_header-interior.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -1821,6 +1944,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_assets/sass/_magical-colors.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_assets/sass/_magical-emojis.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_assets/sass/_magical-emojis.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2153,6 +2289,16 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/_includes/guarantee.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/_includes/header-interior-full.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_includes/header-interior-full.html",
 		"oF": 0,
 		"oS": 0
 		},

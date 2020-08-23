@@ -21,7 +21,7 @@
 				line-height: 180%
 
 
-	.sn-meta
+	.sn-meta-num
 		padding: 2rem 0 2rem	
 		grid-row-gap: 2rem
 		font-variant: tabular-nums
@@ -32,12 +32,20 @@
 	.sn-meta-container
 		grid-column: span 4
 
+		&:hover
+			h2
+				color: $c-light
+				-webkit-text-stroke-color: $c-light
+				+easeall
+
+
 		h2
 			display: inline
 			font-size: 4rem
 			color: $c-dark
 			-webkit-text-stroke-width: 2px
 			-webkit-text-stroke-color: $c-grey-aa-large
+			+easeall
 		
 			+bp-medium
 				font-size: 6rem
@@ -89,4 +97,3 @@
 
 			blockquote
 				max-width: 26rem
-				// color: $c-grey-aa
