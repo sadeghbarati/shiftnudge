@@ -1,25 +1,18 @@
 //- hr
 .sn-wrapper-big
 
-	.sn-quote-group.grid
+	.sn-quote-group
 
-		.sn-student-quote.item
+		.sn-student-quote
 			- studentName		="Diamond Alexander";
 			- studentTitle	="Advice Pay";
 			- studentImage	="../_assets/img/students/diamond.png";
 			- studentQuote	="The level of detail, expertise, theory, and genuine craftsmanship that has gone into this course is incredible. It's well worth the investment and more. <em>Matt's knowledge and production value are amazing—I'm so glad I joined!</em>";
 			include ../_includes/quote.pug
+			
 
 		//- -------- quote -------- //
-		.sn-student-quote.item
-			- studentName		="Ramon Gilabert";
-			- studentTitle	="Microsoft";
-			- studentImage	="../_assets/img/students/ramon.png";
-			- studentQuote	="I’ve taken many courses—recently a masters in interaction design—and I’ve read every book, but your course is by far the most comprehensive, well explained, well structured, and <em>most actionable resource in design I’ve ever taken.</em>";
-			include ../_includes/quote.pug
-
-		//- -------- quote -------- //
-		.sn-student-quote.item
+		.sn-student-quote
 			- studentName		="Stephen Asonye";
 			- studentTitle	="Order My Gear";
 			- studentImage	="../_assets/img/students/stephen.png";
@@ -27,7 +20,15 @@
 			include ../_includes/quote.pug
 
 		//- -------- quote -------- //
-		.sn-student-quote.item
+		.sn-student-quote
+			- studentName		="Ramon Gilabert";
+			- studentTitle	="Microsoft";
+			- studentImage	="../_assets/img/students/ramon.png";
+			- studentQuote	="I’ve taken many courses—recently a masters in interaction design—and I’ve read every book, but your course is by far the most comprehensive, well explained, well structured, and <em>most actionable resource in design I’ve ever taken.</em>";
+			include ../_includes/quote.pug
+
+		//- -------- quote -------- //
+		.sn-student-quote
 			- studentName		="Jenny Vogel";
 			- studentTitle	="Growflow";
 			- studentImage	="../_assets/img/students/jenny.png";

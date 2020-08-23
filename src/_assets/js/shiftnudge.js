@@ -1,8 +1,5 @@
-// @codekit-prepend 'vendor/imagesloaded.min.js'
 // @codekit-prepend 'vendor/jquery.js'
 // @codekit-prepend 'vendor/jquery.countdown.min.js'
-
-
 
 
 
@@ -38,39 +35,39 @@ $(document).ready(function() {
 		$('.sn-module').toggleClass( "sn-lessons--showing" );
 	});
 
-	$(".formkit-field input").on('focus blur', function(){
-		$(this).parent().parent().toggleClass('is_focused');
-	})
+	// $(".formkit-field input").on('focus blur', function(){
+	// 	$(this).parent().parent().toggleClass('is_focused');
+	// })
 
 	// grid for review page
-	function resizeGridItem(item){
-		grid = document.getElementsByClassName("grid")[0];
-		rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
-		rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
-		rowSpan = Math.ceil((item.querySelector('.content').getBoundingClientRect().height+rowGap)/(rowHeight+rowGap));
-		item.style.gridRowEnd = "span "+rowSpan;
-	}
+	// function resizeGridItem(item){
+	// 	grid = document.getElementsByClassName("grid")[0];
+	// 	rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
+	// 	rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
+	// 	rowSpan = Math.ceil((item.querySelector('.content').getBoundingClientRect().height+rowGap)/(rowHeight+rowGap));
+	// 	item.style.gridRowEnd = "span "+rowSpan;
+	// }
 
-	function resizeAllGridItems(){
-		allItems = document.getElementsByClassName("item");
-		for(x=0;x<allItems.length;x++){
-		  resizeGridItem(allItems[x]);
-		}
-	}
+	// function resizeAllGridItems(){
+	// 	allItems = document.getElementsByClassName("item");
+	// 	for(x=0;x<allItems.length;x++){
+	// 	  resizeGridItem(allItems[x]);
+	// 	}
+	// }
 
-	window.onload = resizeAllGridItems();
+	// window.onload = resizeAllGridItems();
 
-	window.addEventListener("resize", resizeAllGridItems);
+	// window.addEventListener("resize", resizeAllGridItems);
 
-	allItems = document.getElementsByClassName("item");
-		for(x=0;x<allItems.length;x++){
-		imagesLoaded( allItems[x], resizeInstance);
-	}
+	// allItems = document.getElementsByClassName("item");
+	// 	for(x=0;x<allItems.length;x++){
+	// 	imagesLoaded( allItems[x], resizeInstance);
+	// }
 
-	function resizeInstance(instance){
-		item = instance.elements[0];
-		resizeGridItem(item);
-	}
+	// function resizeInstance(instance){
+	// 	item = instance.elements[0];
+	// 	resizeGridItem(item);
+	// }
 
 	// dynamic year in footer
 	var now = new Date();
@@ -100,30 +97,6 @@ $(document).ready(function() {
 		}
 		
 	});
-
-	// anime.js stuff
-	// Wrap every letter in a span
-	
-	// var textWrapper = document.querySelector('.ml7 .letters');
-	// textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-	// anime.timeline({loop: true})
-	//   .add({
-	//     targets: '.ml7 .letter',
-	//     translateY: ["1.1em", 0],
-	//     translateX: ["0.55em", 0],
-	//     translateZ: 0,
-	//     rotateZ: [180, 0],
-	//     duration: 750,
-	//     easing: "easeOutExpo",
-	//     delay: (el, i) => 50 * i
-	//   }).add({
-	//     targets: '.ml7',
-	//     opacity: 0,
-	//     duration: 1000,
-	//     easing: "easeOutExpo",
-	//     delay: 1000
-	//   });
 
 
 });

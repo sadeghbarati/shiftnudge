@@ -8,11 +8,10 @@ block head
 	link(id="favicon" rel="shortcut icon" href="../favicon.ico")
 	
 block content
-	include ../_includes/header
+	include ../_includes/header-interior
 	.sn-review-page
 		.sn-quote-group.grid
 			
-
 			//- review group 1
 
 			//- -------- quote -------- //
@@ -28,7 +27,6 @@ block content
 				- studentName		="Jenny Vogel";
 				- studentTitle	="Growflow";
 				- studentImage	="../_assets/img/students/jenny.png";
-				- highlight			=highlightYellow;
 				- studentQuote	="<em>I would’ve paid 4x more for this course</em>—Matt is an incredible teacher! This was exactly what I needed to take my designs to the next level.";
 				include ../_includes/quote.pug
 
