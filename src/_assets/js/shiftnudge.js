@@ -21,7 +21,7 @@ $(document).ready(function() {
   });
 
 	// countdown
-	$('.sn-countdown').countdown('2020/09/08', function(event) {
+	$('.sn-countdown').countdown('2020/09/09 13:00:00', function(event) {
 		$(this).html(event.strftime('Closes in <span>%Dd %Hh %Mm %Ss</span>'));
 	});
 
