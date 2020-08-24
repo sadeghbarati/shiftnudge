@@ -8,9 +8,13 @@ block head
 		link(id="favicon" rel="shortcut icon" href="../favicon.ico")
 		
 block content
-	.sn-wrap
-		.sn-body
-			h1 One more thing! <em>To make sure this wasn't a mistake, please confirm your email by clicking the "Confirm Email" button in the email that was just sent to you.</em>
+	.sn-wrapper
+		include ../_includes/header-interior
+		.sn-body.sn-interior
+			h1 One more thing!
+			p.callout To make sure this wasn't a mistake, please confirm your email by clicking the "Confirm Email" button in the email that was just sent to you.</em>
+
+			p This is what the email will look like...
 
 			.sn-table-container
 				table
@@ -25,4 +29,4 @@ block content
 						td Thanks for signing up. Click the link below to confirm your subscription and you'll be on your way. <br><br><span class="sn-cta-mock">Confirm subscription</span><br><br>It's good to have you!
 
 
-			include ../_includes/foot.pug
+			include ../_includes/foot-mini
