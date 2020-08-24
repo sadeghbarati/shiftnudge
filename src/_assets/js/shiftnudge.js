@@ -1,4 +1,6 @@
 // @codekit-prepend 'vendor/jquery.js'
+// @codekit-prepend 'vendor/moment.js'
+// @codekit-prepend 'vendor/moment-timezone.js'
 // @codekit-prepend 'vendor/jquery.countdown.min.js'
 
 
@@ -20,10 +22,19 @@ $(document).ready(function() {
     }
   });
 
-  // countdown for course launch
-	$('.sn-countdown').countdown('2020/08/24 13:00:00', function(event) {
-		$(this).html(event.strftime('in <span>%Dd %Hh %Mm %Ss</span>'));
+
+  // timezone support countdown for course launch
+  var dayTime = moment.tz("2020-08-24 17:00", "America/New_York");
+  // for some reason there is a 4 hour discrepancy (eg. set time 4 hours longer than you think you should)
+
+	$('.sn-countdown').countdown(dayTime.toDate(), function(event) {
+	  $(this).html(event.strftime('in <span>%Dd %Hh %Mm %Ss</span>'));
 	});
+
+  // before adding timezone support countdown for course launch
+	// $('.sn-countdown').countdown('2020/08/24 13:00:00', function(event) {
+	// 	$(this).html(event.strftime('in <span>%Dd %Hh %Mm %Ss</span>'));
+	// });
 
 	// countdown for course closed
 	// $('.sn-countdown').countdown('2020/09/09 13:00:00', function(event) {

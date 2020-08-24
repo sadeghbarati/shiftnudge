@@ -1545,6 +1545,28 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/src/_assets/js/vendor/moment-timezone.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/build/_assets/js/vendor/moment-timezone.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_assets/js/vendor/moment.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/build/_assets/js/vendor/moment.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/src/_assets/sass/_animation/_animate-color.sass": {
 		"aP": 0,
 		"bl": 0,
