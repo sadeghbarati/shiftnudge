@@ -3,30 +3,37 @@ extends _includes/layout.pug
 block head
 	title Shift Nudge – Interface Design Course
 	
-block content		
-	include _includes/header
-	include _includes/hero
-	include _includes/review-group-1
-	//- ------------------------------
-	.sn-wrapper
-		- vidTitle= "About the Course";
-		- vidID= "450205621";
-		include _includes/video
-	//- ------------------------------
-	include _includes/overview
-	include _includes/modules
-	include _includes/review-group-2
-	include _includes/mds
-	include _includes/review-group-3
-	include _includes/how
-	include _includes/right-for-me
-	include _includes/review-group-4
-	include _includes/faqs
-	include _includes/review-group-5
-	include _includes/guarantee
-	include _includes/pricing
-	include _includes/pricing-faqs
-	include _includes/review-group-6
-	include _includes/final-cta
-	include _includes/foot
-
+block content	
+	.sn-launch-temp
+		.sn-wrapper.sn-hero
+			.sn-title
+				.sn-logo
+					include _includes/sn-logo-radial.pug
+				h1 Shift Nudge 
+				p.xlarge #[span.hide Shift Nudge ] interface design launching #[time.sn-countdown today at 1pm EST]
+				.sn-meta
+					.sn-instructor
+						img(src='/_assets/img/mds-avatar.png' alt='mds headshot')
+						p Taught by #[a(href="#mds") MDS ]
+					.sn-students
+						a.sn-student-group(href="/reviews")
+							.sn-student #[img(src='/_assets/img/students/yannik.jpg' alt='student headshot')]
+							.sn-student #[img(src='/_assets/img/students/boma.png' alt='student headshot')]
+							.sn-student #[img(src='/_assets/img/students/caden.png' alt='student headshot')]
+							.sn-student #[img(src='/_assets/img/students/anipier.png' alt='student headshot')]
+							.sn-student #[img(src='/_assets/img/students/jonah.png' alt='student headshot')]
+							.sn-student #[img(src='/_assets/img/students/chibuzor.png' alt='student headshot')]
+							.sn-student #[img(src='/_assets/img/students/michelle.png' alt='student headshot')]
+							.sn-student #[img(src='/_assets/img/students/bryan.png' alt='student headshot')]
+							.sn-student #[img(src='/_assets/img/students/liliia.png' alt='student headshot')]
+							.sn-student #[img(src='/_assets/img/students/tiffany.png' alt='student headshot')]
+							.sn-student #[img(src='/_assets/img/students/jenny.png' alt='student headshot')]
+							.sn-student #[img(src='/_assets/img/students/hasan.png' alt='student headshot')]
+							.sn-student #[img(src='/_assets/img/students/kakau.png' alt='student headshot')]
+							.sn-student #[img(src='/_assets/img/students/denis.png' alt='student headshot')]
+							.sn-student #[img(src='/_assets/img/students/stephen.png' alt='student headshot')]
+							.sn-student #[img(src='/_assets/img/students/davida.png' alt='student headshot')]
+							.sn-student #[img(src='/_assets/img/students/jack.png' alt='student headshot')]
+							.sn-student #[img(src='/_assets/img/students/diamond.png' alt='student headshot')]
+							.sn-student #[img(src='/_assets/img/students/charlsy.png' alt='student headshot')]	
+		include _includes/form.pug

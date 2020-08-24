@@ -20,10 +20,15 @@ $(document).ready(function() {
     }
   });
 
-	// countdown
-	$('.sn-countdown').countdown('2020/09/09 13:00:00', function(event) {
-		$(this).html(event.strftime('Closes in <span>%Dd %Hh %Mm %Ss</span>'));
+  // countdown for course launch
+	$('.sn-countdown').countdown('2020/08/24 13:00:00', function(event) {
+		$(this).html(event.strftime('in <span>%Dd %Hh %Mm %Ss</span>'));
 	});
+
+	// countdown for course closed
+	// $('.sn-countdown').countdown('2020/09/09 13:00:00', function(event) {
+	// 	$(this).html(event.strftime('Closes in <span>%Dd %Hh %Mm %Ss</span>'));
+	// });
 
 	// make sure things are loaded
 	window.addEventListener("load", () => {
@@ -34,9 +39,6 @@ $(document).ready(function() {
 	$('.sn-module').on( "click", function(event) {
 		$('.sn-module').toggleClass( "sn-lessons--showing" );
 	});
-
-
-
 
 	// emojis on hover for quotes
 	var emojis = [
@@ -83,22 +85,21 @@ $(document).ready(function() {
 
 	// toggle payment options
 	$('.payment-option').on( "click", function(event) {
-
 		$('.payment-option-monthly').toggleClass( "is-selected" );
 		$('.payment-option-one-time').toggleClass( "is-selected" );
-
 		if ($( ".payment-option-monthly" ).hasClass( "is-selected" )) {
-
 			$(".sn-core .sn-cta").attr("href", "https://transactions.sendowl.com/subscriptions/15428/AB8F3CAF/purchase")
 			$(".sn-pro .sn-cta").attr("href", "https://transactions.sendowl.com/subscriptions/15427/526D9F28/purchase")
-		
 		} else {
-
 			$(".sn-core .sn-cta").attr("href", "https://transactions.sendowl.com/products/78343146/21A4DE94/purchase")
 			$(".sn-pro .sn-cta").attr("href", "https://transactions.sendowl.com/products/78343087/E3E6D25A/purchase")
-		}
-		
+		}		
 	});
+
+	// convertkit float labels
+	$(".formkit-field input").on("focus blur", (function() {
+  	$(this).parent().parent().toggleClass("is_focused")
+  }));
 
 });
 

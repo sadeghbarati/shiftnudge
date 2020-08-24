@@ -1,0 +1,32 @@
+extends _includes/layout.pug
+
+block head
+	title Shift Nudge – Interface Design Course
+	
+block content		
+	include _includes/header
+	include _includes/hero
+	include _includes/review-group-1
+	//- ------------------------------
+	.sn-wrapper
+		- vidTitle= "About the Course";
+		- vidID= "450205621";
+		include _includes/video
+	//- ------------------------------
+	include _includes/overview
+	include _includes/modules
+	include _includes/review-group-2
+	include _includes/mds
+	include _includes/review-group-3
+	include _includes/how
+	include _includes/right-for-me
+	include _includes/review-group-4
+	include _includes/faqs
+	include _includes/review-group-5
+	include _includes/guarantee
+	include _includes/pricing
+	include _includes/pricing-faqs
+	include _includes/review-group-6
+	include _includes/final-cta
+	include _includes/foot
+
