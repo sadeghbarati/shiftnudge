@@ -1567,6 +1567,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/src/_assets/img/students/brad.jpg": {
+		"ft": 16384,
+		"iS": 16982,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/students/brad.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/src/_assets/img/students/brandon.jpg": {
 		"ft": 16384,
 		"iS": 11957,
